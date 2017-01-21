@@ -7,15 +7,16 @@ TBD
 * made for the web (scale, server-side cache, client-side cache)
 * docker (testable, scalable, deployment)
 * asyncio (why not? also insane concurrency)
-* ...
+* anti-dogpile (of some sort)
 
 ### Done
 * skeleton
 * dockerise
 * tox and pytest for unit tests
+* free online test pipeline
+* code coverage (hidden under circle ci artefacts)
 
 ### Plan
-* free online test runner
 * xxx
 * base code (wsgi? asyncio bottle ...)
 * routes
@@ -29,6 +30,8 @@ TBD
 * acceptance tests (uses real data server)
 * http2?
 * ETag and If-Match validation
+* cache upstream resuls via nginx?
+* cache responses via nginx?
 * anti-dogpile when making upstream requests
 
 ### Tools
