@@ -1,2 +1,2 @@
-aiohttp==1.2.0
-aiodns==1.1.1
+-r extimulate/requirements.txt
+pytest
