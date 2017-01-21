@@ -1,0 +1,5 @@
+.*.swp
+.python-version
+.tox
+__pycache__
+*/__pycache__
