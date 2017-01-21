@@ -30,3 +30,8 @@ TBD
 * http2?
 * ETag and If-Match validation
 * anti-dogpile when making upstream requests
+
+### Tools
+* https://circleci.com/gh/dimaqq/daw-popular
+* https://coveralls.io/github/dimaqq/daw-popular
+* ...
