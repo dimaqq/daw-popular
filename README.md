@@ -25,20 +25,18 @@ TBD
 * asyncio server skeleton, front-end cache works
 * route
 * fixed responses
+* cache control for browser
+* ETag
 
 ### Plan
 * actual code
 * ...
-* cache control for browser
 
 ### Maybe later
 * black box tests (microservice in isolation)
 * acceptance tests (uses real data server)
 * http2?
-* ETag and If-Match validation
-* cache upstream resuls via nginx?
-* cache responses via nginx?
-* anti-dogpile when making upstream requests
+* pure-python: anti-dogpile when making upstream requests
 
 ### Tools
 * https://circleci.com/gh/dimaqq/daw-popular
