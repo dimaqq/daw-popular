@@ -35,10 +35,11 @@ run `tox` (Python3.6 must be available)
 * cache control for browser
 * ETag
 * bug: protect against bad username
+* actual code
+* manual testing
 
 ### Plan
-* actual code
-* ...
+* figure out how to mock asyncio dependencies
 
 ### Maybe later
 * black box tests (microservice in isolation)

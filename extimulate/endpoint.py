@@ -1,8 +1,9 @@
+import os
+import json
 import logging
 from urllib.request import quote
 from asyncio import ensure_future
 import aiohttp.web
-import os
 
 HOST = os.environ.get("UPSTREAM_HOST", "74.50.59.155:6000")
 
@@ -20,6 +21,19 @@ async def purchases(username):
             return {p["productId"] for p in (await r.json())["purchases"]}
 
 
+async def who_purchased(prod_id, skip=None):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(f"http://{HOST}/api/purchases/by_product/{prod_id}") as r:
+            return {p["username"] for p in (await r.json())["purchases"] if p["username"] != skip}
+
+
+async def product_info(prod_id):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(f"http://{HOST}/api/products/{prod_id}") as r:
+            logging.debug("info: %s", await r.json())
+            return (await r.json())["product"]
+
+
 async def recent_purchases(request):
     name = request.match_info["username"]
     valid = ensure_future(is_valid(name))
@@ -31,9 +45,14 @@ async def recent_purchases(request):
                                     headers={"Cache-Control": "max-age=600, public"})
 
     logging.debug("user %r if valid", name)
-    logging.debug("purchases %r", await ps)
 
-    rv = "sss"
+    infos = {pid: ensure_future(product_info(pid)) for pid in await ps}
+    whos = {pid: ensure_future(who_purchased(pid, skip=name)) for pid in await ps}
+
+    rv = sorted([{**(await v), "recent": list(await whos[k])} for k, v in infos.items()],
+                key=lambda el: -len(el["recent"]))
+    
+    rv = json.dumps(rv)
     return aiohttp.web.Response(text=rv,
                                 headers={"ETag": str(hash(rv)),
                                          "Cache-Control": "max-age=600, public"})  # let varnish and broser cache it
