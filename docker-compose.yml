@@ -4,3 +4,19 @@ extimulate:
     build: extimulate
     links:
         - redis
+        - cache2
+    volumes:
+        - ./extimulate:/extimulate
+    command: python -m extimulate
+cache1:
+    image: klokantech/varnish:latest
+    volumes:
+        - ./cache1/default.vcl:/etc/varnish/default.vcl
+    ports:
+        - "80:80"
+    links:
+        - extimulate
+cache2:
+    image: klokantech/varnish:latest
+    volumes:
+        - ./cache2/default.vcl:/etc/varnish/default.vcl
