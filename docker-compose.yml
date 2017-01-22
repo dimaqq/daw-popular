@@ -7,6 +7,8 @@ extimulate:
         - cache2
     volumes:
         - ./extimulate:/extimulate
+    environment:
+        UPSTREAM_HOST: "cache2"
     command: dumb-init python -m extimulate
 cache1:
     image: klokantech/varnish:latest

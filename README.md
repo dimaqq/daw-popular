@@ -40,6 +40,7 @@ run `tox` (Python3.6 must be available)
 
 ### Plan
 * figure out how to mock asyncio dependencies
+* bug: varnish containers should exit faster
 
 ### Maybe later
 * black box tests (microservice in isolation)
