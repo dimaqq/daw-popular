@@ -1,6 +1,6 @@
-import time
+from . import endpoint
 
 
 if __name__ == "__main__":
-    time.sleep(60)
+    endpoint.app.run(host='localhost', port=8080, debug=True)
 
