@@ -21,12 +21,12 @@ TBD
 * tox and pytest for unit tests
 * free online test pipeline
 * code coverage (hidden under circle ci artefacts)
+* sync bottle skeleton
+* asyncio server skeleton, front-end cache works
+* route
+* fixed responses
 
 ### Plan
-* xxx
-* base code (wsgi? asyncio bottle ...)
-* routes
-* fixed responses
 * actual code
 * ...
 * cache control for browser

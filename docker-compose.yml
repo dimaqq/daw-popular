@@ -1,13 +1,13 @@
-redis:
-    image: redis:3.2.6
+#redis:
+#    image: redis:3.2.6
 extimulate:
     build: extimulate
     links:
-        - redis
+#        - redis
         - cache2
     volumes:
         - ./extimulate:/extimulate
-    command: python -m extimulate
+    command: dumb-init python -m extimulate
 cache1:
     image: klokantech/varnish:latest
     volumes:

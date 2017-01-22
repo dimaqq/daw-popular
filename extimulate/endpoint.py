@@ -1,8 +1,8 @@
-import bottle
+import aiohttp.web
 
-app = bottle.Bottle()
+async def recent_purchases(request):
+    name = request.match_info["username"]
+    return aiohttp.web.Response(text="ssss")
 
-
-@app.route("/api/recent_purchases/<username>")
-def recent_purchases(username):
-    return "boobarbaz"
+app = aiohttp.web.Application()
+app.router.add_route("GET", "/api/recent_purchases/{username}", recent_purchases)

@@ -1,6 +1,7 @@
+import aiohttp.web
 from . import endpoint
 
 
 if __name__ == "__main__":
-    endpoint.app.run(host='localhost', port=8080, debug=True)
+    aiohttp.web.run_app(endpoint.app, port=8080)
 
