@@ -9,6 +9,12 @@ TBD
 * asyncio (why not? also insane concurrency)
 * anti-dogpile (of some sort)
 
+### Architecture
+
+![option1](https://github.com/dimaqq/daw-popular/raw/master/doc/arch-option1.png "Option 1")
+
+![option2](https://github.com/dimaqq/daw-popular/raw/master/doc/arch-option2.png "Option 2")
+
 ### Done
 * skeleton
 * dockerise
