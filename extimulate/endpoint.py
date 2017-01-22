@@ -24,7 +24,8 @@ async def recent_purchases(request):
     valid = ensure_future(is_valid(name))
     ps = ensure_future(purchases(name))
     if not await valid:
-        raise Exception("ouch")
+        return aiohttp.web.Response(status=404,
+                                    text=f"User with username of {name!r} was not found")
     rv = "sss"
     return aiohttp.web.Response(text=rv,
                                 headers={"ETag": str(hash(rv)),
