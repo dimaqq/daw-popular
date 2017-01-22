@@ -1,20 +1,36 @@
 import pytest
 from unittest import mock
 from .. import endpoint
+from asyncio_extras.contextmanager import async_contextmanager
 
 
-@pytest.mark.skip(reason="can't find working asyncio mock")
+def MockSession(data):
+    @async_contextmanager
+    async def Session():
+        @async_contextmanager
+        async def get(url):
+            async def json():
+                return data
+            r = mock.Mock()
+            r.json = json
+            yield r
+
+        rv = mock.Mock()
+        rv.get = get
+        yield rv
+    return Session
+
+
 @pytest.mark.asyncio
 async def test_not_valid():
-    with mock.patch("aiohttp.ClientSession", AsyncMock()):
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(users=[]))):
         assert not await endpoint.is_valid("foobar")
 
 
-@pytest.mark.skip(reason="can't find working asyncio mock")
 @pytest.mark.asyncio
 async def test_is_valid():
-    with asynctest.patch("aiohttp.ClientSession"):
-        assert await endpoint.is_valid("Kiarra86")
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(users=[dict(username="foobar")]))):
+        assert await endpoint.is_valid("foobar")
 
 
 @pytest.mark.skip(reason="can't find working asyncio mock")

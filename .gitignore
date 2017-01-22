@@ -2,6 +2,7 @@
 .python-version
 .tox
 .coverage
+.cache
 __pycache__
 htmlcov
 */__pycache__
