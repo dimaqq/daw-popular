@@ -3,6 +3,13 @@ TBD
 ### For the eggs team ;-)
 TBD
 
+### Quick start
+run `docker-compose -f docker-compose.yml up --build`
+test `http localhost/api/recent_purchases/Kiarra86`
+
+### Uni tests
+run `tox` (Python3.6 must be available)
+
 ### Design considerations
 * made for the web (scale, server-side cache, client-side cache)
 * docker (testable, scalable, deployment)
@@ -27,6 +34,7 @@ TBD
 * fixed responses
 * cache control for browser
 * ETag
+* bug: protect against bad username
 
 ### Plan
 * actual code
