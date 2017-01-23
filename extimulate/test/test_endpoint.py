@@ -11,13 +11,8 @@ def MockSession(data):
         async def get(url):
             async def json():
                 return data
-            r = mock.Mock()
-            r.json = json
-            yield r
-
-        rv = mock.Mock()
-        rv.get = get
-        yield rv
+            yield mock.Mock(json=json)
+        yield mock.Mock(get=get)
     return Session
 
 
