@@ -76,6 +76,12 @@ async def test_who_purchased_removes_self():
         assert (await endpoint.who_purchased(123, skip=42)) == {1, 2}
 
 
+@pytest.mark.asyncio
+async def test_product_info():
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(product=42))):
+        assert (await endpoint.product_info(123)) == 42
+
+
 def ready_future(value):
     f = asyncio.Future()
     f.set_result(value)
