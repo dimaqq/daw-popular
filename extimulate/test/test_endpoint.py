@@ -51,3 +51,24 @@ async def test_purchases_escapes_user():
         assert "foobar" in session.last_url
         # path traversal attack must be prevented
         assert "../" not in session.last_url
+
+
+@pytest.mark.asyncio
+async def test_who_purchased_empty():
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(purchases=[]))):
+        assert not await endpoint.who_purchased(123)
+
+
+@pytest.mark.asyncio
+async def test_who_purchased():
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(purchases=[dict(username=1),
+                                                                         dict(username=2)]))):
+        assert (await endpoint.who_purchased(123)) == {1, 2}
+
+
+@pytest.mark.asyncio
+async def test_who_purchased_removes_self():
+    with mock.patch("aiohttp.ClientSession", MockSession(dict(purchases=[dict(username=1),
+                                                                         dict(username=2),
+                                                                         dict(username=42)]))):
+        assert (await endpoint.who_purchased(123, skip=42)) == {1, 2}
