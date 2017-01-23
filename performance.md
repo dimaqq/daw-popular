@@ -17,3 +17,9 @@ conc  ms mean
 ```
 
 Workload is CPU-bound (expected), but 50ms per request is apalling
+
+According to the following, aiohttp is the bottleneck
+* https://magic.io/blog/uvloop-blazing-fast-python-networking/
+* https://github.com/KeepSafe/aiohttp/issues/858
+
+A new set of libraries is required for adequate performance.
