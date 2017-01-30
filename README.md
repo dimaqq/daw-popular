@@ -10,6 +10,11 @@ test `http localhost/api/recent_purchases/Kiarra86`
 ### Uni tests
 run `tox` (Python3.6 must be available)
 
+### Branches
+* master (https://github.com/dimaqq/daw-popular/tree/master) demo code
+* performance (https://github.com/dimaqq/daw-popular/tree/performance) investigation into making asyncio fast
+* pure-python (TBD) caching in Python, that is without HTTP cache
+
 ### Design considerations
 * made for the web (scale, server-side cache, client-side cache)
 * docker (testable, scalable, deployment)
