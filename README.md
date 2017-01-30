@@ -42,8 +42,11 @@ run `tox` (Python3.6 must be available)
 * bug: protect against bad username
 * actual code
 * manual testing
+* uvloop
+* httptools
 
 ### Plan
+* https://github.com/shiyanhui/Router
 * figure out how to mock asyncio dependencies
 * bug: varnish containers should exit faster
 
