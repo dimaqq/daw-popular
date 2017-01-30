@@ -22,3 +22,5 @@ cache2:
     image: klokantech/varnish:latest
     volumes:
         - ./cache2/default.vcl:/etc/varnish/default.vcl
+    ports:
+        - "3380:80"

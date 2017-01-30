@@ -4,6 +4,7 @@ from . import endpoint
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    # logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
     aiohttp.web.run_app(endpoint.app, port=8080)
 
