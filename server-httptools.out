@@ -1,0 +1,5827 @@
+version: 1
+creator: yappi
+pid: 64024
+cmd:  performance-server-httptools.py
+part: 1
+
+events: Ticks
+
+fl=(11) performance-server-httptools.py
+fl=(713) performance-server-httptools.py
+fl=(705) performance-server-httptools.py
+fl=(709) performance-server-httptools.py
+fl=(665) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(714) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(722) performance-server-httptools.py
+fl=(719) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/__init__.py
+fl=(12) <frozen importlib._bootstrap>
+fl=(21) <frozen importlib._bootstrap>
+fl=(53) <frozen importlib._bootstrap>
+fl=(69) <frozen importlib._bootstrap_external>
+fl=(82) <frozen importlib._bootstrap>
+fl=(703) performance-server-httptools.py
+fl=(720) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py
+fl=(184) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/__init__.py
+fl=(185) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/__init__.py
+fl=(657) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(700) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(708) performance-server-httptools.py
+fl=(208) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py
+fl=(98) <frozen importlib._bootstrap>
+fl=(209) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/__init__.py
+fl=(699) performance-server-httptools.py
+fl=(728) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(717) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py
+fl=(287) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/process.py
+fl=(697) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py
+fl=(23) <frozen importlib._bootstrap>
+fl=(658) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(639) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py
+fl=(489) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(701) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(721) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py
+fl=(31) <frozen importlib._bootstrap_external>
+fl=(32) <frozen importlib._bootstrap_external>
+fl=(666) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py
+fl=(673) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(37) <frozen importlib._bootstrap_external>
+fl=(548) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(727) performance-server-httptools.py
+fl=(366) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(554) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(297) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(290) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(555) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(294) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(367) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(54) <frozen importlib._bootstrap>
+fl=(41) <frozen importlib._bootstrap_external>
+fl=(113) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(702) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(70) <frozen importlib._bootstrap_external>
+fl=(131) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py
+fl=(132) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py
+fl=(134) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(304) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(340) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py
+fl=(711) performance-server-httptools.py
+fl=(83) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/__init__.py
+fl=(712) performance-server-httptools.py
+fl=(707) performance-server-httptools.py
+fl=(210) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(300) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(368) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(341) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(448) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(103) <frozen importlib._bootstrap_external>
+fl=(42) <frozen importlib._bootstrap_external>
+fl=(211) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(295) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py
+fl=(313) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(296) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py
+fl=(57) <frozen importlib._bootstrap>
+fl=(95) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py
+fl=(159) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(406) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py
+fl=(212) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py
+fl=(556) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(222) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py
+fl=(135) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(187) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py
+fl=(163) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(79) <frozen importlib._bootstrap_external>
+fl=(64) <frozen importlib._bootstrap_external>
+fl=(140) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(142) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(309) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(101) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/scanner.py
+fl=(61) <frozen importlib._bootstrap>
+fl=(675) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/__init__.py
+fl=(407) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py
+fl=(38) <frozen importlib._bootstrap_external>
+fl=(62) <frozen importlib._bootstrap_external>
+fl=(678) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(586) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(587) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(178) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py
+fl=(487) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py
+fl=(165) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(14) <frozen importlib._bootstrap>
+fl=(568) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(569) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(186) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(452) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py
+fl=(139) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(166) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(34) <frozen importlib._bootstrap_external>
+fl=(45) <frozen importlib._bootstrap>
+fl=(96) <frozen importlib._bootstrap>
+fl=(107) <frozen importlib._bootstrap>
+fl=(46) <frozen importlib._bootstrap_external>
+fl=(76) <frozen importlib._bootstrap_external>
+fl=(510) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py
+fl=(114) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(392) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/bz2.py
+fl=(429) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py
+fl=(74) <frozen importlib._bootstrap_external>
+fl=(312) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(409) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py
+fl=(48) <frozen importlib._bootstrap_external>
+fl=(396) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/lzma.py
+fl=(112) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(318) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(505) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py
+fl=(144) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(15) <frozen importlib._bootstrap>
+fl=(416) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py
+fl=(47) <frozen importlib._bootstrap_external>
+fl=(347) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(372) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(729) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(643) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/__init__.py
+fl=(24) <frozen importlib._bootstrap>
+fl=(28) <frozen importlib._bootstrap>
+fl=(453) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(346) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(115) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(348) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(345) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(116) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(19) <frozen importlib._bootstrap>
+fl=(305) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(198) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(572) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(301) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py
+fl=(65) <frozen importlib._bootstrap_external>
+fl=(97) <frozen importlib._bootstrap>
+fl=(118) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(679) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/stringprep.py
+fl=(160) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(110) <frozen importlib._bootstrap>
+fl=(50) <frozen importlib._bootstrap_external>
+fl=(16) <frozen importlib._bootstrap>
+fl=(120) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(430) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py
+fl=(588) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(73) <frozen importlib._bootstrap_external>
+fl=(59) <frozen importlib._bootstrap>
+fl=(307) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(532) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(600) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/base64.py
+fl=(137) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(590) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(477) <string>
+fl=(573) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(77) <frozen importlib._bootstrap_external>
+fl=(158) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(417) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/bisect.py
+fl=(517) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(329) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(90) <frozen importlib._bootstrap_external>
+fl=(227) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(151) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(575) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(84) <frozen importlib._bootstrap_external>
+fl=(109) <frozen importlib._bootstrap>
+fl=(314) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(155) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(538) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/subprocess.py
+fl=(26) <frozen importlib._bootstrap>
+fl=(311) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(199) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(595) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(512) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/types.py
+fl=(85) <frozen importlib._bootstrap_external>
+fl=(593) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(592) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(29) <frozen importlib._bootstrap>
+fl=(483) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(40) <frozen importlib._bootstrap_external>
+fl=(511) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(508) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(121) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/types.py
+fl=(516) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py
+fl=(194) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py
+fl=(591) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(571) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(310) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(71) <frozen importlib._bootstrap_external>
+fl=(594) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(441) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(596) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(597) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(154) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(488) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(145) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(193) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py
+fl=(580) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(528) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py
+fl=(87) <frozen importlib._bootstrap_external>
+fl=(549) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py
+fl=(93) <frozen importlib._bootstrap_external>
+fl=(519) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(449) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py
+fl=(123) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(105) <frozen importlib._bootstrap_external>
+fl=(589) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(577) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(141) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(576) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(537) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(371) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(615) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py
+fl=(303) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(52) <frozen importlib._bootstrap>
+fl=(608) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(150) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(539) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/subprocess.py
+fl=(68) <frozen importlib._bootstrap>
+fl=(149) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(174) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(315) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(13) <frozen importlib._bootstrap>
+fl=(660) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(67) <frozen importlib._bootstrap>
+fl=(393) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py
+fl=(146) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(56) <frozen importlib._bootstrap>
+fl=(200) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py
+fl=(540) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(111) <frozen importlib._bootstrap>
+fl=(662) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(455) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(181) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py
+fl=(147) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(172) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(60) <frozen importlib._bootstrap>
+fl=(289) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(326) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py
+fl=(124) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(49) <frozen importlib._bootstrap_external>
+fl=(624) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(578) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(327) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py
+fl=(288) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(122) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(730) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py
+fl=(644) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(86) <frozen importlib._bootstrap_external>
+fl=(213) <frozen importlib._bootstrap>
+fl=(224) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(72) <frozen importlib._bootstrap_external>
+fl=(398) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(321) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(55) <frozen importlib._bootstrap_external>
+fl=(399) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(494) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(216) <frozen importlib._bootstrap>
+fl=(565) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(271) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(228) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(164) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(529) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py
+fl=(272) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(369) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/fnmatch.py
+fl=(89) <frozen importlib._bootstrap_external>
+fl=(162) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(581) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(570) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(634) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(322) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(440) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(136) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(561) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(507) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_tasks.py
+fl=(619) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(456) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(176) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(525) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py
+fl=(143) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(550) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py
+fl=(133) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(492) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(583) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(610) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(635) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(316) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(480) <string>
+fl=(330) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py
+fl=(522) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(153) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(504) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py
+fl=(689) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(243) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(245) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(612) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(342) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py
+fl=(161) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py
+fl=(567) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(357) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(579) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(251) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(308) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(457) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(102) <frozen importlib._bootstrap_external>
+fl=(454) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(562) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(443) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(497) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py
+fl=(252) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(218) <frozen importlib._bootstrap>
+fl=(670) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(458) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py
+fl=(267) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(173) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(693) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(247) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(523) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(536) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(214) <frozen importlib._bootstrap>
+fl=(333) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py
+fl=(521) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(515) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py
+fl=(534) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(520) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(334) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py
+fl=(324) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(498) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py
+fl=(676) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/__init__.py
+fl=(604) <string>
+fl=(370) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(328) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py
+fl=(138) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(273) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(246) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(609) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(128) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(687) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(486) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(499) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py
+fl=(255) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(618) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py
+fl=(254) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(338) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py
+fl=(152) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(674) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(331) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py
+fl=(266) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(614) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(484) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(256) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(344) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py
+fl=(201) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(354) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(613) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(258) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(183) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py
+fl=(685) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(391) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(223) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py
+fl=(390) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(397) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/lzma.py
+fl=(582) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(405) <string>
+fl=(215) <frozen importlib._bootstrap>
+fl=(350) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(460) <string>
+fl=(482) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(485) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(509) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(129) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py
+fl=(563) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(434) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py
+fl=(233) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py
+fl=(427) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(431) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py
+fl=(564) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(242) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(472) <string>
+fl=(421) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py
+fl=(637) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py
+fl=(1) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_bootlocale.py
+fl=(253) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(365) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(636) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py
+fl=(686) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py
+fl=(240) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(196) <string>
+fl=(6) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py
+fl=(478) <string>
+fl=(3) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py
+fl=(476) <string>
+fl=(474) <string>
+fl=(445) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py
+fl=(439) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(464) <string>
+fl=(282) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(470) <string>
+fl=(667) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(640) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py
+fl=(606) <string>
+fl=(225) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py
+fl=(468) <string>
+fl=(202) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py
+fl=(496) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(638) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py
+fl=(432) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py
+fl=(584) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(506) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py
+fl=(337) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py
+fl=(260) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(221) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py
+fl=(239) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(332) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py
+fl=(351) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(493) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(566) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(263) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(663) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(424) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(691) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(655) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(656) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(490) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(559) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(234) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py
+fl=(661) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py
+fl=(265) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(291) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(446) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/process.py
+fl=(182) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py
+fl=(279) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(560) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(632) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(628) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(623) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(535) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(450) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py
+fl=(626) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(633) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/_patch.py
+fl=(388) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(426) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(620) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(616) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py
+fl=(387) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(385) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(659) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(530) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py
+fl=(551) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py
+fl=(386) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(585) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(285) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(244) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(654) performance-server-httptools.py
+fl=(541) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(625) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(292) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(400) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(631) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(395) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py
+fl=(403) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(466) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(231) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py
+fl=(428) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(621) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(622) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py
+fl=(353) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py
+fl=(293) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py
+fl=(617) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py
+fl=(235) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(358) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(268) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(435) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py
+fl=(690) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(607) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(177) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py
+fl=(462) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py
+fl=(401) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(543) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(630) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(491) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(4) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py
+fl=(547) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(599) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(286) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(402) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py
+fl=(425) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py
+fl=(652) performance-server-httptools.py
+fl=(248) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(642) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py
+fl=(375) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(378) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(442) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(281) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(384) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(250) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(356) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(355) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(495) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py
+fl=(451) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py
+fl=(545) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(447) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/thread.py
+fl=(220) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py
+fl=(197) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(518) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(364) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(629) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(204) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(280) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(203) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(270) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(465) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(238) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(236) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(205) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(380) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(206) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py
+fl=(514) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py
+fl=(376) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(527) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py
+fl=(241) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(502) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py
+fl=(389) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(261) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(602) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py
+fl=(524) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py
+fl=(171) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py
+fl=(394) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py
+fl=(349) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py
+fl=(237) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(481) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py
+fl=(436) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py
+fl=(526) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py
+fl=(360) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(275) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(359) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(276) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(262) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(363) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(383) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(461) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py
+fl=(433) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py
+fl=(283) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(552) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py
+fl=(627) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py
+fl=(544) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(653) performance-server-httptools.py
+fl=(381) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(444) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py
+fl=(558) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(542) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(681) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(437) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py
+fl=(533) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py
+fl=(680) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(362) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(650) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(277) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+fl=(422) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py
+fl=(531) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py
+fl=(377) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(379) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(249) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(546) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py
+fl=(641) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py
+fl=(382) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(646) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(336) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py
+fl=(647) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(361) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py
+fl=(557) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py
+fl=(648) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(645) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(649) /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py
+fl=(553) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/constants.py
+fl=(264) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py
+fl=(684) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(374) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py
+fl=(682) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(683) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py
+fl=(352) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py
+fl=(278) /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py
+
+fn=(11) <module> performance-server-httptools.py:1
+fn=(713) HttpProtocol.handle performance-server-httptools.py:89
+fn=(705) HttpProtocol.data_received performance-server-httptools.py:79
+fn=(709) HttpProtocol.on_headers_complete performance-server-httptools.py:59
+fn=(665) ensure_future /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:500
+fn=(714) sleep /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:462
+fn=(722) HttpResponse.write performance-server-httptools.py:26
+fn=(719) dumps /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/__init__.py:183
+fn=(12) _find_and_load <frozen importlib._bootstrap>:958
+fn=(21) _find_and_load_unlocked <frozen importlib._bootstrap>:931
+fn=(53) _load_unlocked <frozen importlib._bootstrap>:641
+fn=(69) SourceFileLoader.exec_module <frozen importlib._bootstrap_external>:672
+fn=(82) _call_with_frames_removed <frozen importlib._bootstrap>:197
+fn=(703) HttpProtocol.connection_made performance-server-httptools.py:68
+fn=(720) JSONEncoder.encode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py:182
+fn=(184) <module> /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/__init__.py:1
+fn=(185) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/__init__.py:1
+fn=(657) get_event_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:659
+fn=(700) WeakValueDictionary.__setitem__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:155
+fn=(708) HttpProtocol.on_header performance-server-httptools.py:56
+fn=(208) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py:14
+fn=(98) _handle_fromlist <frozen importlib._bootstrap>:989
+fn=(209) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/__init__.py:1
+fn=(699) HttpProtocol.__init__ performance-server-httptools.py:43
+fn=(728) socket.detach /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:419
+fn=(717) _set_result_unless_cancelled /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py:343
+fn=(287) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/process.py:44
+fn=(697) _remove /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py:38
+fn=(23) _find_spec <frozen importlib._bootstrap>:861
+fn=(658) _get_running_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:617
+fn=(639) WeakSet.add /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py:81
+fn=(489) Handle /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:79
+fn=(701) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:305
+fn=(721) JSONEncoder.iterencode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py:204
+fn=(31) find_spec <frozen importlib._bootstrap_external>:1149
+fn=(32) _get_spec <frozen importlib._bootstrap_external>:1117
+fn=(666) iscoroutine /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py:268
+fn=(673) socket.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:139
+fn=(37) FileFinder.find_spec <frozen importlib._bootstrap_external>:1233
+fn=(548) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:1
+fn=(727) HttpProtocol.connection_lost performance-server-httptools.py:76
+fn=(366) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:10
+fn=(554) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:5
+fn=(297) _convert /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:602
+fn=(290) Full /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:17
+fn=(555) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:91
+fn=(294) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:1
+fn=(367) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:24
+fn=(54) module_from_spec <frozen importlib._bootstrap>:553
+fn=(41) _path_join <frozen importlib._bootstrap_external>:57
+fn=(113) __call__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:265
+fn=(702) KeyedRef.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:310
+fn=(70) SourceFileLoader.get_code <frozen importlib._bootstrap_external>:743
+fn=(131) compile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py:231
+fn=(132) _compile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py:286
+fn=(134) compile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:557
+fn=(304) _create_ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:364
+fn=(340) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py:10
+fn=(711) HttpRequest.__init__ performance-server-httptools.py:11
+fn=(83) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/__init__.py:97
+fn=(712) HttpResponse.__init__ performance-server-httptools.py:21
+fn=(707) HttpProtocol.on_url performance-server-httptools.py:53
+fn=(210) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:4
+fn=(300) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:623
+fn=(368) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:5
+fn=(341) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:47
+fn=(448) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:27
+fn=(103) ExtensionFileLoader.create_module <frozen importlib._bootstrap_external>:919
+fn=(42) <listcomp> <frozen importlib._bootstrap_external>:59
+fn=(211) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:24
+fn=(295) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py:10
+fn=(313) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:124
+fn=(296) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py:1
+fn=(57) _init_module_attrs <frozen importlib._bootstrap>:493
+fn=(95) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py:2
+fn=(159) _code /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:542
+fn=(406) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py:38
+fn=(212) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py:15
+fn=(556) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:9
+fn=(222) __init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py:65
+fn=(135) parse /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:845
+fn=(187) namedtuple /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py:356
+fn=(163) _compile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:64
+fn=(79) _compile_bytecode <frozen importlib._bootstrap_external>:485
+fn=(64) cache_from_source <frozen importlib._bootstrap_external>:263
+fn=(140) _parse_sub /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:407
+fn=(142) _parse /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:469
+fn=(309) _EnumDict.__setitem__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:70
+fn=(101) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/scanner.py:2
+fn=(61) ModuleSpec.cached <frozen importlib._bootstrap>:389
+fn=(675) search_function /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/__init__.py:71
+fn=(407) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py:54
+fn=(38) _path_stat <frozen importlib._bootstrap_external>:75
+fn=(62) _get_cached <frozen importlib._bootstrap_external>:361
+fn=(678) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:3
+fn=(586) _IPv6Constants /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:2264
+fn=(587) IPv6Network.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:2158
+fn=(178) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py:2
+fn=(487) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py:1
+fn=(165) _compile_charset /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:223
+fn=(14) _ModuleLockManager.__enter__ <frozen importlib._bootstrap>:146
+fn=(568) _IPv4Constants /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1558
+fn=(569) IPv4Network.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1459
+fn=(186) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:5
+fn=(452) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py:1
+fn=(139) RegexFlag.__and__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:797
+fn=(166) _optimize_charset /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:250
+fn=(34) _path_importer_cache <frozen importlib._bootstrap_external>:1080
+fn=(45) _verbose_message <frozen importlib._bootstrap>:208
+fn=(96) _lock_unlock_module <frozen importlib._bootstrap>:178
+fn=(107) _installed_safely.__exit__ <frozen importlib._bootstrap>:304
+fn=(46) _path_isfile <frozen importlib._bootstrap_external>:94
+fn=(76) _validate_bytecode_header <frozen importlib._bootstrap_external>:430
+fn=(510) coroutine /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py:192
+fn=(114) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:515
+fn=(392) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/bz2.py:5
+fn=(429) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py:10
+fn=(74) SourceFileLoader.get_data <frozen importlib._bootstrap_external>:830
+fn=(312) _is_descriptor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:20
+fn=(409) __get_openssl_constructor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py:116
+fn=(48) FileFinder._get_spec <frozen importlib._bootstrap_external>:1228
+fn=(396) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/lzma.py:9
+fn=(112) RegexFlag.__or__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:791
+fn=(318) __setattr__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:351
+fn=(505) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py:1
+fn=(144) Tokenizer.get /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:253
+fn=(15) _get_module_lock <frozen importlib._bootstrap>:159
+fn=(416) __get_builtin_constructor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/hashlib.py:73
+fn=(47) _path_is_mode_type <frozen importlib._bootstrap_external>:85
+fn=(347) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:86
+fn=(372) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:30
+fn=(729) remove /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:108
+fn=(643) EventLoopPolicy /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/__init__.py:22
+fn=(24) _ImportLockContext.__enter__ <frozen importlib._bootstrap>:834
+fn=(28) _ImportLockContext.__exit__ <frozen importlib._bootstrap>:838
+fn=(453) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:5
+fn=(346) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:81
+fn=(115) _missing_ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:756
+fn=(348) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:91
+fn=(345) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:76
+fn=(116) _create_pseudo_member_ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:763
+fn=(19) _ModuleLock.acquire <frozen importlib._bootstrap>:77
+fn=(305) _get_mixins_ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:417
+fn=(198) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:132
+fn=(572) _ip_int_from_string /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1099
+fn=(301) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py:10
+fn=(65) _path_split <frozen importlib._bootstrap_external>:63
+fn=(97) _ModuleLock.release <frozen importlib._bootstrap>:102
+fn=(118) _decompose /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:833
+fn=(679) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/stringprep.py:6
+fn=(160) _compile_info /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:482
+fn=(110) _ModuleLockManager.__exit__ <frozen importlib._bootstrap>:153
+fn=(50) spec_from_file_location <frozen importlib._bootstrap_external>:524
+fn=(16) _ModuleLock.__init__ <frozen importlib._bootstrap>:57
+fn=(120) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:848
+fn=(430) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py:42
+fn=(588) _ip_int_from_string /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1630
+fn=(73) SourceFileLoader.path_stats <frozen importlib._bootstrap_external>:840
+fn=(59) ModuleSpec.parent <frozen importlib._bootstrap>:402
+fn=(307) __prepare__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:114
+fn=(532) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:1
+fn=(600) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/base64.py:3
+fn=(137) Tokenizer.__next /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:232
+fn=(590) IPv6Address.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1882
+fn=(477) <module> <string>:1
+fn=(573) _parse_octet /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1125
+fn=(77) _r_long <frozen importlib._bootstrap_external>:52
+fn=(158) fix_flags /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:829
+fn=(417) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/bisect.py:1
+fn=(517) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:1
+fn=(329) update_wrapper /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:44
+fn=(90) FileFinder._fill_cache <frozen importlib._bootstrap_external>:1281
+fn=(227) fixup /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:102
+fn=(151) SubPattern.__getitem__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:163
+fn=(575) IPv4Address.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1251
+fn=(84) _path_hooks <frozen importlib._bootstrap_external>:1067
+fn=(109) <genexpr> <frozen importlib._bootstrap>:307
+fn=(314) _find_new_ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:462
+fn=(155) SubPattern.getwidth /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:173
+fn=(538) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/subprocess.py:1
+fn=(26) find_spec <frozen importlib._bootstrap>:698
+fn=(311) _is_dunder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:28
+fn=(199) <setcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:135
+fn=(595) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:139
+fn=(512) coroutine /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/types.py:211
+fn=(85) path_hook_for_FileFinder <frozen importlib._bootstrap_external>:1322
+fn=(593) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:129
+fn=(592) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:124
+fn=(29) find_spec <frozen importlib._bootstrap>:771
+fn=(483) _ParameterKind /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2350
+fn=(40) _relax_case <frozen importlib._bootstrap_external>:37
+fn=(511) iscoroutinefunction /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:179
+fn=(508) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:1
+fn=(121) DynamicClassAttribute.__get__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/types.py:135
+fn=(516) BaseEventLoop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py:233
+fn=(194) <genexpr> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py:421
+fn=(591) _make_netmask /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1612
+fn=(571) _split_optional_netmask /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:158
+fn=(310) _is_sunder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:36
+fn=(71) SourceFileLoader._check_name_wrapper <frozen importlib._bootstrap_external>:393
+fn=(594) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:134
+fn=(441) Listener /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:422
+fn=(596) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:144
+fn=(597) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:149
+fn=(154) Pattern.closegroup /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:96
+fn=(488) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:1
+fn=(145) Tokenizer.match /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:248
+fn=(193) <genexpr> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/collections/__init__.py:419
+fn=(580) IPv4Address.__int__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:550
+fn=(528) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py:1
+fn=(87) FileFinder.__init__ <frozen importlib._bootstrap_external>:1196
+fn=(549) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py:1
+fn=(93) <setcomp> <frozen importlib._bootstrap_external>:1310
+fn=(519) _ContextManagerMixin /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:43
+fn=(449) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py:26
+fn=(123) _power_of_two /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:865
+fn=(105) ExtensionFileLoader.exec_module <frozen importlib._bootstrap_external>:927
+fn=(589) _parse_hextet /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1734
+fn=(577) _make_netmask /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1075
+fn=(141) Tokenizer.tell /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:285
+fn=(576) IPv4Address._check_int_address /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:417
+fn=(537) StreamReader /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:336
+fn=(371) decorating_function /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:480
+fn=(615) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py:1
+fn=(303) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:628
+fn=(52) ModuleSpec.__init__ <frozen importlib._bootstrap>:355
+fn=(608) Purpose /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:370
+fn=(150) SubPattern.__len__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:159
+fn=(539) Process /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/subprocess.py:94
+fn=(68) _installed_safely.__enter__ <frozen importlib._bootstrap>:297
+fn=(149) SubPattern.append /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:171
+fn=(174) _mk_bitmap /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:376
+fn=(315) __getattr__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:310
+fn=(13) _ModuleLockManager.__init__ <frozen importlib._bootstrap>:142
+fn=(660) EventLoopPolicy.get_event_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:572
+fn=(67) _installed_safely.__init__ <frozen importlib._bootstrap>:293
+fn=(393) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py:1
+fn=(146) Pattern.opengroup /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:84
+fn=(56) _new_module <frozen importlib._bootstrap>:35
+fn=(200) WeakSet.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py:36
+fn=(540) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:1
+fn=(111) cb <frozen importlib._bootstrap>:173
+fn=(662) EventLoopPolicy.new_event_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:592
+fn=(455) def_op /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:39
+fn=(181) JSONEncoder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py:73
+fn=(147) Pattern.groups /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:81
+fn=(172) _class_escape /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:294
+fn=(60) ModuleSpec.has_location <frozen importlib._bootstrap>:410
+fn=(289) Empty /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:13
+fn=(326) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py:17
+fn=(124) _high_bit /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:816
+fn=(49) SourceFileLoader.__init__ <frozen importlib._bootstrap_external>:800
+fn=(624) _UnixSelectorEventLoop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:49
+fn=(578) _prefix_from_prefix_string /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:476
+fn=(327) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/signal.py:22
+fn=(288) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:1
+fn=(122) RegexFlag.name /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:592
+fn=(730) HttpProtocol.eof_received /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py:94
+fn=(644) <module> /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:1
+fn=(86) _path_isdir <frozen importlib._bootstrap_external>:99
+fn=(213) spec_from_loader <frozen importlib._bootstrap>:419
+fn=(224) Tokenizer.getuntil /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:266
+fn=(72) SourceFileLoader.get_filename <frozen importlib._bootstrap_external>:825
+fn=(398) Error /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:49
+fn=(321) <setcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:160
+fn=(55) SourceFileLoader.create_module <frozen importlib._bootstrap_external>:669
+fn=(399) SameFileError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:52
+fn=(494) BaseDefaultEventLoopPolicy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:550
+fn=(216) type.create_module <frozen importlib._bootstrap>:719
+fn=(565) IPv4Address /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1245
+fn=(271) getLogger /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1806
+fn=(228) _bytes_to_codes /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:381
+fn=(164) _simple /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:388
+fn=(529) Queue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py:28
+fn=(272) Manager.getLogger /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1154
+fn=(369) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/fnmatch.py:11
+fn=(89) <genexpr> <frozen importlib._bootstrap_external>:1202
+fn=(162) _get_charset_prefix /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:441
+fn=(581) IPv4Address.__eq__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:553
+fn=(570) IPv4Network.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:607
+fn=(634) register /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:151
+fn=(322) <genexpr> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:179
+fn=(440) Connection /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:348
+fn=(136) Tokenizer.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:223
+fn=(561) total_ordering /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:193
+fn=(507) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_tasks.py:1
+fn=(619) BaseSelectorEventLoop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:54
+fn=(456) name_op /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:43
+fn=(176) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:378
+fn=(525) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py:1
+fn=(143) SubPattern.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:111
+fn=(550) BaseSubprocessTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py:12
+fn=(133) isstring /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:539
+fn=(492) AbstractEventLoop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:209
+fn=(583) IPv6Address /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1876
+fn=(610) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:354
+fn=(635) __subclasscheck__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:194
+fn=(316) <dictcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:135
+fn=(480) FrameInfo <string>:5
+fn=(330) abspath /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py:367
+fn=(522) Condition /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:270
+fn=(153) _escape /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:342
+fn=(504) CoroWrapper /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py:87
+fn=(689) gather /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:554
+fn=(243) Filter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:636
+fn=(245) __init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:101
+fn=(612) SSLContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:377
+fn=(342) _get_exports_list /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py:40
+fn=(161) _get_literal_prefix /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_compile.py:414
+fn=(567) IPv4Network /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1444
+fn=(357) <genexpr> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:264
+fn=(579) _ip_int_from_prefix /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:433
+fn=(251) _StderrHandler.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1078
+fn=(308) _EnumDict.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:65
+fn=(457) jrel_op /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:47
+fn=(102) ExtensionFileLoader.__init__ <frozen importlib._bootstrap_external>:908
+fn=(454) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:37
+fn=(562) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:196
+fn=(443) ConnectionWrapper /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:745
+fn=(497) _Environ.get /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py:657
+fn=(252) _StderrHandler.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:764
+fn=(218) type.exec_module <frozen importlib._bootstrap>:727
+fn=(670) socketpair /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:475
+fn=(458) jabs_op /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/opcode.py:51
+fn=(267) RootLogger.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1261
+fn=(173) Tokenizer.getwhile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:257
+fn=(693) _done_callback /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:608
+fn=(247) Handler /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:755
+fn=(523) Semaphore /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:387
+fn=(536) StreamWriter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:265
+fn=(214) type._requires_builtin_wrapper <frozen importlib._bootstrap>:218
+fn=(333) normpath /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py:329
+fn=(521) Event /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:204
+fn=(515) Server /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_events.py:186
+fn=(534) FlowControlMixin /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:148
+fn=(520) Lock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:89
+fn=(334) BaseProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py:62
+fn=(324) __members__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:335
+fn=(498) _Environ.__getitem__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py:664
+fn=(676) normalize_encoding /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/__init__.py:43
+fn=(604) DefaultVerifyPaths <string>:5
+fn=(370) lru_cache /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:449
+fn=(328) wraps /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/functools.py:74
+fn=(138) Pattern.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:76
+fn=(273) Manager._fixupParents /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1205
+fn=(246) update /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:261
+fn=(609) _make_class_unpicklable /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:43
+fn=(128) <lambda> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:859
+fn=(687) Codec.encode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:147
+fn=(486) Signature /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2649
+fn=(499) encode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py:740
+fn=(255) _addHandlerRef /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:745
+fn=(618) SSLProtocol /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py:406
+fn=(254) _checkLevel /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:185
+fn=(338) _MainProcess.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py:293
+fn=(152) SubPattern.__setitem__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:167
+fn=(674) _set_running_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:626
+fn=(331) isabs /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py:62
+fn=(266) RootLogger.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1575
+fn=(614) SSLSocket /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:712
+fn=(484) Parameter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2368
+fn=(256) _acquireLock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:214
+fn=(344) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/os.py:44
+fn=(201) BaseSelector /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:79
+fn=(354) BaseContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:30
+fn=(613) SSLObject /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:561
+fn=(258) _releaseLock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:223
+fn=(183) JSONDecoder.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py:283
+fn=(685) getregentry /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:300
+fn=(391) TarFile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:1378
+fn=(223) escape /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/re.py:249
+fn=(390) TarInfo /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:720
+fn=(397) LZMAFile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/lzma.py:38
+fn=(582) _BaseV6 /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1592
+fn=(405) usage <string>:5
+fn=(215) is_package <frozen importlib._bootstrap>:744
+fn=(350) socket /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:133
+fn=(460) _Instruction <string>:5
+fn=(482) _empty /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2346
+fn=(485) BoundArguments /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2519
+fn=(509) Task /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:23
+fn=(129) RegexFlag.value /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/enum.py:597
+fn=(563) _BaseNetwork /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:598
+fn=(434) Popen /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py:540
+fn=(233) normcase /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py:50
+fn=(427) SpooledTemporaryFile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:629
+fn=(431) CalledProcessError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py:60
+fn=(564) _BaseV4 /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1049
+fn=(242) BufferingFormatter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:594
+fn=(472) FullArgSpec <string>:5
+fn=(421) Random /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py:71
+fn=(637) __subclasshook__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py:349
+fn=(1) getpreferredencoding /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_bootlocale.py:23
+fn=(253) _StderrHandler.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:678
+fn=(365) DefaultContext.reducer /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:202
+fn=(636) WeakSet.__contains__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_weakrefset.py:70
+fn=(686) __new__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py:93
+fn=(240) Formatter.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:465
+fn=(196) SelectorKey <string>:5
+fn=(6) IncrementalDecoder.decode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py:318
+fn=(478) Traceback <string>:5
+fn=(3) IncrementalDecoder.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py:308
+fn=(476) ClosureVars <string>:5
+fn=(474) ArgInfo <string>:5
+fn=(445) WeakKeyDictionary.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/weakref.py:325
+fn=(439) _ConnectionBase /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:114
+fn=(464) Attribute <string>:5
+fn=(282) _AllCompletedWaiter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:108
+fn=(470) ArgSpec <string>:5
+fn=(667) __instancecheck__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:178
+fn=(640) __subclasshook__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py:148
+fn=(606) _ASN1Object <string>:5
+fn=(225) Tokenizer.seek /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/sre_parse.py:287
+fn=(468) Arguments <string>:5
+fn=(202) abstractmethod /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/abc.py:9
+fn=(496) _RunningLoop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:612
+fn=(638) _check_methods /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_collections_abc.py:72
+fn=(432) TimeoutExpired /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py:97
+fn=(584) IPv6Interface /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:2056
+fn=(506) Future /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/futures.py:110
+fn=(337) _MainProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py:291
+fn=(260) _StderrHandler.createLock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:793
+fn=(221) Template /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py:77
+fn=(239) Formatter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:421
+fn=(332) _get_sep /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/posixpath.py:39
+fn=(351) SocketIO /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:543
+fn=(493) AbstractEventLoopPolicy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:516
+fn=(566) IPv4Interface /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:1362
+fn=(263) Logger /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1246
+fn=(663) EventLoopPolicy.set_event_loop /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:586
+fn=(424) _RandomNameSequence /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:136
+fn=(691) _GatheringFuture.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:540
+fn=(655) EventLoopPolicy.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:569
+fn=(656) set_event_loop_policy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:650
+fn=(490) TimerHandle /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:141
+fn=(559) _IPAddressBase /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:385
+fn=(234) RLock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py:74
+fn=(661) current_thread /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py:1226
+fn=(265) LoggerAdapter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1583
+fn=(291) Queue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:21
+fn=(446) ProcessPoolExecutor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/process.py:367
+fn=(182) JSONEncoder.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/encoder.py:104
+fn=(279) _Waiter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:56
+fn=(560) _BaseAddress /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:539
+fn=(632) _UnixDefaultEventLoopPolicy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:1023
+fn=(628) AbstractChildWatcher /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:703
+fn=(623) _SelectorDatagramTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:1046
+fn=(535) StreamReaderProtocol /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:214
+fn=(450) NodeVisitor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py:229
+fn=(626) _UnixWritePipeTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:455
+fn=(633) <module> /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/uvloop/_patch.py:1
+fn=(388) _FileInFile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:605
+fn=(426) _TemporaryFileWrapper /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:459
+fn=(620) _SelectorTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:541
+fn=(616) _SSLPipe /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py:48
+fn=(387) _StreamProxy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:575
+fn=(385) _LowLevelFile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:307
+fn=(659) get_event_loop_policy /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:643
+fn=(530) PriorityQueue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py:221
+fn=(551) WriteSubprocessPipeProto /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py:262
+fn=(386) _Stream /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:331
+fn=(585) IPv6Network /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:2142
+fn=(285) Future /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:282
+fn=(244) Filterer /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:673
+fn=(654) HttpProtocol performance-server-httptools.py:37
+fn=(541) BaseTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:10
+fn=(625) _UnixReadPipeTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:324
+fn=(292) PriorityQueue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:214
+fn=(400) SpecialFileError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:55
+fn=(631) FastChildWatcher /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:913
+fn=(395) DecompressReader /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py:33
+fn=(403) RegistryError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:65
+fn=(466) BlockFinder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:850
+fn=(231) Formatter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py:169
+fn=(428) TemporaryDirectory /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:777
+fn=(621) _SelectorSocketTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:678
+fn=(622) _SelectorSslTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/selector_events.py:814
+fn=(353) AbstractReducer /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py:244
+fn=(293) LifoQueue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/queue.py:233
+fn=(617) _SSLProtocolTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/sslproto.py:294
+fn=(235) LogRecord /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:234
+fn=(358) ForkProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:272
+fn=(268) Manager.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1143
+fn=(435) Finalize /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py:147
+fn=(690) <listcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:602
+fn=(607) _ASN1Object /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:349
+fn=(177) JSONDecoder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py:253
+fn=(462) Bytecode /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py:416
+fn=(401) ExecError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:59
+fn=(543) WriteTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:65
+fn=(630) SafeChildWatcher /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:834
+fn=(491) AbstractServer /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:197
+fn=(4) IncrementalDecoder.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/codecs.py:259
+fn=(547) _FlowControlMixin /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:230
+fn=(599) <dictcomp> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:154
+fn=(286) Executor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:509
+fn=(402) ReadError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/shutil.py:62
+fn=(425) _TemporaryFileCloser /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tempfile.py:416
+fn=(652) HttpRequest performance-server-httptools.py:8
+fn=(248) StreamHandler /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:944
+fn=(642) _MainThread.ident /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py:1092
+fn=(375) ExtractError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:273
+fn=(378) StreamError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:282
+fn=(442) SocketListener /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:564
+fn=(281) _FirstCompletedWaiter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:93
+fn=(384) SubsequentHeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:300
+fn=(250) _StderrHandler /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1072
+fn=(356) DefaultContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:225
+fn=(355) Process /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:219
+fn=(495) _Local /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/events.py:565
+fn=(451) NodeTransformer /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ast.py:266
+fn=(545) DatagramTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:155
+fn=(447) ThreadPoolExecutor /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/thread.py:83
+fn=(220) _TemplateMetaclass /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/string.py:55
+fn=(197) _SelectorMapping /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:59
+fn=(518) _ContextManager /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:13
+fn=(364) DefaultContext.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:228
+fn=(629) BaseChildWatcher /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:773
+fn=(204) SelectSelector /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:290
+fn=(280) _AsCompletedWaiter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:71
+fn=(203) _BaseSelectorImpl /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:205
+fn=(270) NullHandler /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1934
+fn=(465) EndOfBlock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:848
+fn=(238) StringTemplateStyle /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:397
+fn=(236) PercentStyle /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:373
+fn=(205) PollSelector /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:343
+fn=(380) EmptyHeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:288
+fn=(206) KqueueSelector /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/selectors.py:525
+fn=(514) _GatheringFuture /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/tasks.py:532
+fn=(376) ReadError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:276
+fn=(527) SubprocessProtocol /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py:116
+fn=(241) PercentStyle.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:379
+fn=(502) MyGen.__next__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/coroutines.py:62
+fn=(389) ExFileObject /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:709
+fn=(261) PlaceHolder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1096
+fn=(602) CertificateError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ssl.py:215
+fn=(524) BoundedSemaphore /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/locks.py:464
+fn=(171) JSONDecodeError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/json/decoder.py:20
+fn=(394) BaseStream /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/_compression.py:9
+fn=(349) _GiveupOnSendfile /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/socket.py:130
+fn=(237) StrFormatStyle /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:388
+fn=(481) _void /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/inspect.py:2342
+fn=(436) ForkAwareThreadLock /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py:322
+fn=(526) Protocol /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/protocols.py:62
+fn=(360) ForkServerProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:286
+fn=(275) PlaceHolder.__init__ /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1102
+fn=(359) SpawnProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:279
+fn=(276) Error /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:44
+fn=(262) Manager /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1138
+fn=(363) ForkServerContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:301
+fn=(383) InvalidHeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:297
+fn=(461) Instruction /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/dis.py:178
+fn=(433) CompletedProcess /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/subprocess.py:339
+fn=(283) _AcquireFutures /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:138
+fn=(552) ReadSubprocessPipeProto /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/base_subprocess.py:289
+fn=(627) _UnixSubprocessTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/unix_events.py:678
+fn=(544) Transport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:133
+fn=(653) HttpResponse performance-server-httptools.py:18
+fn=(381) TruncatedHeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:291
+fn=(444) XmlListener /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/connection.py:767
+fn=(558) NetmaskValueError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:23
+fn=(542) ReadTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:45
+fn=(681) IncrementalEncoder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:218
+fn=(437) ForkAwareLocal /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/util.py:339
+fn=(533) LimitOverrunError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/streams.py:39
+fn=(680) Codec /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:146
+fn=(362) SpawnContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:297
+fn=(650) HttpParserUpgrade /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:29
+fn=(277) CancelledError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:48
+fn=(422) SystemRandom /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/random.py:663
+fn=(531) LifoQueue /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/queues.py:237
+fn=(377) CompressionError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:279
+fn=(379) HeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:285
+fn=(249) FileHandler /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1003
+fn=(546) SubprocessTransport /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/transports.py:178
+fn=(641) main_thread /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/threading.py:1300
+fn=(382) EOFHeaderError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:294
+fn=(646) HttpParserCallbackError /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:13
+fn=(336) AuthenticationString /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py:277
+fn=(647) HttpParserInvalidStatusError /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:17
+fn=(361) ForkContext /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py:293
+fn=(557) AddressValueError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/ipaddress.py:19
+fn=(648) HttpParserInvalidMethodError /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:21
+fn=(645) HttpParserError /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:9
+fn=(649) HttpParserInvalidURLError /Users/dima/.pyenv/versions/daw-popular/lib/python3.6/site-packages/httptools/parser/errors.py:25
+fn=(553) <module> /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/asyncio/constants.py:1
+fn=(264) RootLogger /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/logging/__init__.py:1569
+fn=(684) StreamReader /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:295
+fn=(374) TarError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/tarfile.py:270
+fn=(682) IncrementalDecoder /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:253
+fn=(683) StreamWriter /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/encodings/idna.py:292
+fn=(352) _C /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/reduction.py:204
+fn=(278) TimeoutError /Users/dima/.pyenv/versions/3.6.0/lib/python3.6/concurrent/futures/_base.py:52
+
+fl=(11)
+fn=(11)
+1 140
+cfl=(665)
+cfn=(665)
+calls=1 0
+0 139
+cfl=(657)
+cfn=(657)
+calls=2 0
+0 475
+cfl=(656)
+cfn=(656)
+calls=1 0
+0 11
+cfl=(655)
+cfn=(655)
+calls=1 0
+0 11
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 372596
+
+fl=(713)
+fn=(713)
+89 317476
+cfl=(722)
+cfn=(722)
+calls=8000 0
+0 453167
+cfl=(719)
+cfn=(719)
+calls=8000 0
+0 398535
+cfl=(714)
+cfn=(714)
+calls=16000 0
+0 464292
+
+fl=(705)
+fn=(705)
+79 107791
+
+fl=(709)
+fn=(709)
+59 165355
+cfl=(665)
+cfn=(665)
+calls=8000 0
+0 573494
+cfl=(712)
+cfn=(712)
+calls=8000 0
+0 29075
+cfl=(711)
+cfn=(711)
+calls=8000 0
+0 29998
+
+fl=(665)
+fn=(665)
+500 147127
+cfl=(657)
+cfn=(657)
+calls=8001 0
+0 81000
+cfl=(666)
+cfn=(666)
+calls=8001 0
+0 77477
+cfl=(489)
+cfn=(489)
+calls=8001 0
+0 90786
+
+fl=(714)
+fn=(714)
+462 218238
+cfl=(657)
+cfn=(657)
+calls=8000 0
+0 105529
+
+fl=(722)
+fn=(722)
+26 229445
+
+fl=(719)
+fn=(719)
+183 65758
+cfl=(720)
+cfn=(720)
+calls=8000 0
+0 332777
+
+fl=(12)
+fn=(12)
+958 3254
+cfl=(111)
+cfn=(111)
+calls=99 0
+0 388
+cfl=(110)
+cfn=(110)
+calls=99 0
+0 2340
+cfl=(21)
+cfn=(21)
+calls=99 0
+0 381634
+cfl=(14)
+cfn=(14)
+calls=99 0
+0 7181
+cfl=(13)
+cfn=(13)
+calls=99 0
+0 439
+
+fl=(21)
+fn=(21)
+931 2248
+cfl=(82)
+cfn=(82)
+calls=1 0
+0 1834
+cfl=(53)
+cfn=(53)
+calls=96 0
+0 374303
+cfl=(23)
+cfn=(23)
+calls=99 0
+0 98176
+
+fl=(53)
+fn=(53)
+641 3529
+cfl=(218)
+cfn=(218)
+calls=5 0
+0 94
+cfl=(107)
+cfn=(107)
+calls=96 0
+0 4758
+cfl=(105)
+cfn=(105)
+calls=22 0
+0 636
+cfl=(69)
+cfn=(69)
+calls=69 0
+0 372683
+cfl=(68)
+cfn=(68)
+calls=96 0
+0 461
+cfl=(67)
+cfn=(67)
+calls=96 0
+0 421
+cfl=(54)
+cfn=(54)
+calls=96 0
+0 44746
+
+fl=(69)
+fn=(69)
+672 1050
+cfl=(82)
+cfn=(82)
+calls=69 0
+0 370923
+cfl=(70)
+cfn=(70)
+calls=69 0
+0 36705
+
+fl=(82)
+fn=(82)
+197 1098
+
+fl=(703)
+fn=(703)
+68 132491
+
+fl=(720)
+fn=(720)
+182 157698
+cfl=(721)
+cfn=(721)
+calls=8000 0
+0 88464
+
+fl=(184)
+fn=(184)
+1 104
+cfl=(96)
+cfn=(96)
+calls=2 0
+0 94
+cfl=(59)
+cfn=(59)
+calls=4 0
+0 14
+cfl=(98)
+cfn=(98)
+calls=5 0
+0 4249
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 328074
+
+fl=(185)
+fn=(185)
+1 310
+cfl=(12)
+cfn=(12)
+calls=10 0
+0 311897
+cfl=(98)
+cfn=(98)
+calls=13 0
+0 1353
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 59
+cfl=(59)
+cfn=(59)
+calls=13 0
+0 49
+
+fl=(657)
+fn=(657)
+659 180562
+cfl=(660)
+cfn=(660)
+calls=3 0
+0 435
+cfl=(659)
+cfn=(659)
+calls=3 0
+0 9
+cfl=(658)
+cfn=(658)
+calls=24036 0
+0 94832
+
+fl=(700)
+fn=(700)
+155 109654
+cfl=(702)
+cfn=(702)
+calls=8033 0
+0 39911
+cfl=(701)
+cfn=(701)
+calls=8033 0
+0 90791
+
+fl=(708)
+fn=(708)
+56 161284
+
+fl=(208)
+fn=(208)
+14 185
+cfl=(98)
+cfn=(98)
+calls=7 0
+0 20662
+cfl=(96)
+cfn=(96)
+calls=5 0
+0 339
+cfl=(59)
+cfn=(59)
+calls=7 0
+0 99
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 192025
+
+fl=(98)
+fn=(98)
+989 2205
+cfl=(82)
+cfn=(82)
+calls=20 0
+0 172916
+
+fl=(209)
+fn=(209)
+1 40
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 35
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 162009
+
+fl=(699)
+fn=(699)
+43 71783
+cfl=(657)
+cfn=(657)
+calls=8033 0
+0 88832
+
+fl=(728)
+fn=(728)
+419 112350
+
+fl=(717)
+fn=(717)
+343 83952
+
+fl=(287)
+fn=(287)
+44 107
+cfl=(445)
+cfn=(445)
+calls=1 0
+0 9
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 127882
+cfl=(98)
+cfn=(98)
+calls=5 0
+0 67
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 51
+
+fl=(697)
+fn=(697)
+38 74208
+
+fl=(23)
+fn=(23)
+861 4791
+cfl=(31)
+cfn=(31)
+calls=94 0
+0 84959
+cfl=(29)
+cfn=(29)
+calls=94 0
+0 1048
+cfl=(28)
+cfn=(28)
+calls=287 0
+0 3087
+cfl=(26)
+cfn=(26)
+calls=99 0
+0 1193
+cfl=(24)
+cfn=(24)
+calls=287 0
+0 3098
+
+fl=(658)
+fn=(658)
+617 94835
+
+fl=(639)
+fn=(639)
+81 63750
+
+fl=(489)
+fn=(489)
+79 54536
+
+fl=(701)
+fn=(701)
+305 59069
+
+fl=(721)
+fn=(721)
+204 88464
+
+fl=(31)
+fn=(31)
+1149 835
+cfl=(32)
+cfn=(32)
+calls=94 0
+0 84122
+
+fl=(32)
+fn=(32)
+1117 4899
+cfl=(52)
+cfn=(52)
+calls=3 0
+0 16
+cfl=(37)
+cfn=(37)
+calls=228 0
+0 71292
+cfl=(34)
+cfn=(34)
+calls=281 0
+0 5882
+
+fl=(666)
+fn=(666)
+268 51337
+
+fl=(673)
+fn=(673)
+139 72394
+
+fl=(37)
+fn=(37)
+1233 15146
+cfl=(90)
+cfn=(90)
+calls=8 0
+0 1584
+cfl=(48)
+cfn=(48)
+calls=91 0
+0 4079
+cfl=(46)
+cfn=(46)
+calls=121 0
+0 4654
+cfl=(45)
+cfn=(45)
+calls=943 0
+0 3927
+cfl=(41)
+cfn=(41)
+calls=993 0
+0 35082
+cfl=(40)
+cfn=(40)
+calls=228 0
+0 1024
+cfl=(38)
+cfn=(38)
+calls=228 0
+0 4941
+
+fl=(548)
+fn=(548)
+1 210
+cfl=(98)
+cfn=(98)
+calls=12 0
+0 68495
+cfl=(96)
+cfn=(96)
+calls=10 0
+0 466
+cfl=(59)
+cfn=(59)
+calls=12 0
+0 121
+
+fl=(727)
+fn=(727)
+76 65525
+
+fl=(366)
+fn=(366)
+10 127
+cfl=(334)
+cfn=(334)
+calls=1 0
+0 6
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 5765
+cfl=(59)
+cfn=(59)
+calls=3 0
+0 29
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 57559
+
+fl=(554)
+fn=(554)
+5 189
+cfl=(634)
+cfn=(634)
+calls=2 0
+0 199
+cfl=(98)
+cfn=(98)
+calls=10 0
+0 2224
+cfl=(96)
+cfn=(96)
+calls=8 0
+0 408
+cfl=(59)
+cfn=(59)
+calls=10 0
+0 103
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 59338
+
+fl=(297)
+fn=(297)
+602 668
+cfl=(324)
+cfn=(324)
+calls=13 0
+0 70
+cfl=(318)
+cfn=(318)
+calls=13 0
+0 193
+cfl=(113)
+cfn=(113)
+calls=13 0
+0 33765
+cfl=(300)
+cfn=(300)
+calls=13 0
+0 26719
+
+fl=(290)
+fn=(290)
+17 35
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 58084
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 49
+cfl=(59)
+cfn=(59)
+calls=1 0
+0 3
+
+fl=(555)
+fn=(555)
+91 247
+cfl=(187)
+cfn=(187)
+calls=2 0
+0 2279
+cfl=(599)
+cfn=(599)
+calls=1 0
+0 6
+cfl=(324)
+cfn=(324)
+calls=1 0
+0 4
+cfl=(318)
+cfn=(318)
+calls=1 0
+0 13
+cfl=(297)
+cfn=(297)
+calls=6 0
+0 23048
+cfl=(98)
+cfn=(98)
+calls=12 0
+0 177
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 29380
+
+fl=(294)
+fn=(294)
+1 238
+cfl=(364)
+cfn=(364)
+calls=1 0
+0 5
+cfl=(357)
+cfn=(357)
+calls=37 0
+0 113
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 55165
+cfl=(96)
+cfn=(96)
+calls=2 0
+0 107
+cfl=(59)
+cfn=(59)
+calls=2 0
+0 24
+
+fl=(367)
+fn=(367)
+24 107
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 11
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 50469
+
+fl=(54)
+fn=(54)
+553 1923
+cfl=(216)
+cfn=(216)
+calls=5 0
+0 239
+cfl=(103)
+cfn=(103)
+calls=22 0
+0 23521
+cfl=(57)
+cfn=(57)
+calls=96 0
+0 18684
+cfl=(56)
+cfn=(56)
+calls=69 0
+0 403
+cfl=(55)
+cfn=(55)
+calls=69 0
+0 254
+
+fl=(41)
+fn=(41)
+57 13542
+cfl=(42)
+cfn=(42)
+calls=1131 0
+0 23171
+
+fl=(113)
+fn=(113)
+265 2678
+cfl=(304)
+cfn=(304)
+calls=13 0
+0 33603
+cfl=(114)
+cfn=(114)
+calls=364 0
+0 4416
+
+fl=(702)
+fn=(702)
+310 39911
+
+fl=(70)
+fn=(70)
+743 2960
+cfl=(79)
+cfn=(79)
+calls=69 0
+0 14789
+cfl=(45)
+cfn=(45)
+calls=69 0
+0 318
+cfl=(76)
+cfn=(76)
+calls=69 0
+0 4546
+cfl=(74)
+cfn=(74)
+calls=69 0
+0 4321
+cfl=(73)
+cfn=(73)
+calls=69 0
+0 2064
+cfl=(64)
+cfn=(64)
+calls=69 0
+0 6790
+cfl=(71)
+cfn=(71)
+calls=69 0
+0 918
+
+fl=(131)
+fn=(131)
+231 61
+cfl=(132)
+cfn=(132)
+calls=8 0
+0 36315
+
+fl=(132)
+fn=(132)
+286 339
+cfl=(139)
+cfn=(139)
+calls=16 0
+0 790
+cfl=(134)
+cfn=(134)
+calls=8 0
+0 35036
+cfl=(133)
+cfn=(133)
+calls=8 0
+0 87
+
+fl=(134)
+fn=(134)
+557 327
+cfl=(112)
+cfn=(112)
+calls=4 0
+0 153
+cfl=(147)
+cfn=(147)
+calls=16 0
+0 174
+cfl=(159)
+cfn=(159)
+calls=8 0
+0 17908
+cfl=(135)
+cfn=(135)
+calls=8 0
+0 16301
+cfl=(133)
+cfn=(133)
+calls=8 0
+0 80
+
+fl=(304)
+fn=(304)
+364 1763
+cfl=(318)
+cfn=(318)
+calls=13 0
+0 198
+cfl=(313)
+cfn=(313)
+calls=13 0
+0 18210
+cfl=(309)
+cfn=(309)
+calls=132 0
+0 10312
+cfl=(307)
+cfn=(307)
+calls=13 0
+0 1658
+cfl=(305)
+cfn=(305)
+calls=13 0
+0 821
+
+fl=(340)
+fn=(340)
+10 108
+cfl=(334)
+cfn=(334)
+calls=5 0
+0 17
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 51
+cfl=(59)
+cfn=(59)
+calls=1 0
+0 11
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 29827
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 160
+
+fl=(711)
+fn=(711)
+11 29998
+
+fl=(83)
+fn=(83)
+97 109
+cfl=(183)
+cfn=(183)
+calls=1 0
+0 31
+cfl=(182)
+cfn=(182)
+calls=1 0
+0 10
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 32
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 29581
+cfl=(59)
+cfn=(59)
+calls=2 0
+0 8
+
+fl=(712)
+fn=(712)
+21 29075
+
+fl=(707)
+fn=(707)
+53 28693
+
+fl=(210)
+fn=(210)
+4 80
+cfl=(187)
+cfn=(187)
+calls=1 0
+0 872
+cfl=(271)
+cfn=(271)
+calls=1 0
+0 121
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 26556
+
+fl=(300)
+fn=(300)
+623 6118
+cfl=(597)
+cfn=(597)
+calls=99 0
+0 873
+cfl=(596)
+cfn=(596)
+calls=99 0
+0 884
+cfl=(595)
+cfn=(595)
+calls=99 0
+0 1166
+cfl=(594)
+cfn=(594)
+calls=99 0
+0 902
+cfl=(593)
+cfn=(593)
+calls=99 0
+0 1067
+cfl=(592)
+cfn=(592)
+calls=99 0
+0 1050
+cfl=(348)
+cfn=(348)
+calls=219 0
+0 2822
+cfl=(347)
+cfn=(347)
+calls=218 0
+0 2853
+cfl=(346)
+cfn=(346)
+calls=217 0
+0 2875
+cfl=(345)
+cfn=(345)
+calls=216 0
+0 2804
+cfl=(327)
+cfn=(327)
+calls=69 0
+0 316
+cfl=(326)
+cfn=(326)
+calls=68 0
+0 350
+cfl=(301)
+cfn=(301)
+calls=67 0
+0 2636
+
+fl=(368)
+fn=(368)
+5 218
+cfl=(187)
+cfn=(187)
+calls=1 0
+0 1730
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 41
+cfl=(12)
+cfn=(12)
+calls=4 0
+0 23641
+
+fl=(341)
+fn=(341)
+47 151
+cfl=(297)
+cfn=(297)
+calls=4 0
+0 21959
+cfl=(342)
+cfn=(342)
+calls=1 0
+0 121
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 23
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 2680
+
+fl=(448)
+fn=(448)
+27 234
+cfl=(187)
+cfn=(187)
+calls=8 0
+0 8412
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 35
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 11814
+
+fl=(103)
+fn=(103)
+919 343
+cfl=(45)
+cfn=(45)
+calls=22 0
+0 104
+cfl=(82)
+cfn=(82)
+calls=22 0
+0 23073
+
+fl=(42)
+fn=(42)
+59 13789
+
+fl=(211)
+fn=(211)
+24 219
+cfl=(268)
+cfn=(268)
+calls=1 0
+0 6
+cfl=(266)
+cfn=(266)
+calls=1 0
+0 37
+cfl=(251)
+cfn=(251)
+calls=1 0
+0 109
+cfl=(245)
+cfn=(245)
+calls=1 0
+0 42
+cfl=(240)
+cfn=(240)
+calls=1 0
+0 16
+cfl=(234)
+cfn=(234)
+calls=1 0
+0 6
+cfl=(233)
+cfn=(233)
+calls=1 0
+0 18
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 14
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 20994
+
+fl=(295)
+fn=(295)
+10 143
+cfl=(200)
+cfn=(200)
+calls=1 0
+0 14
+cfl=(338)
+cfn=(338)
+calls=1 0
+0 39
+cfl=(330)
+cfn=(330)
+calls=1 0
+0 145
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 31
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 20946
+
+fl=(313)
+fn=(313)
+124 7306
+cfl=(610)
+cfn=(610)
+calls=4 0
+0 158
+cfl=(609)
+cfn=(609)
+calls=1 0
+0 49
+cfl=(322)
+cfn=(322)
+calls=14 0
+0 54
+cfl=(321)
+cfn=(321)
+calls=15 0
+0 263
+cfl=(318)
+cfn=(318)
+calls=75 0
+0 1266
+cfl=(309)
+cfn=(309)
+calls=14 0
+0 483
+cfl=(316)
+cfn=(316)
+calls=15 0
+0 150
+cfl=(314)
+cfn=(314)
+calls=15 0
+0 1287
+cfl=(305)
+cfn=(305)
+calls=15 0
+0 1035
+
+fl=(296)
+fn=(296)
+1 210
+cfl=(329)
+cfn=(329)
+calls=5 0
+0 647
+cfl=(328)
+cfn=(328)
+calls=5 0
+0 31
+cfl=(297)
+cfn=(297)
+calls=3 0
+0 17816
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 75
+
+fl=(57)
+fn=(57)
+493 4393
+cfl=(61)
+cfn=(61)
+calls=160 0
+0 10085
+cfl=(60)
+cfn=(60)
+calls=96 0
+0 357
+cfl=(59)
+cfn=(59)
+calls=96 0
+0 1066
+
+fl=(95)
+fn=(95)
+2 70
+cfl=(131)
+cfn=(131)
+calls=2 0
+0 3999
+cfl=(112)
+cfn=(112)
+calls=2 0
+0 75
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 13991
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 88
+
+fl=(159)
+fn=(159)
+542 161
+cfl=(163)
+cfn=(163)
+calls=8 0
+0 15156
+cfl=(160)
+cfn=(160)
+calls=8 0
+0 2412
+cfl=(112)
+cfn=(112)
+calls=4 0
+0 150
+
+fl=(406)
+fn=(406)
+38 358
+cfl=(398)
+cfn=(398)
+calls=1 0
+0 259
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 16846
+cfl=(98)
+cfn=(98)
+calls=7 0
+0 111
+
+fl=(212)
+fn=(212)
+15 40
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 21
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 620
+
+fl=(556)
+fn=(556)
+9 113
+cfl=(561)
+cfn=(561)
+calls=2 0
+0 186
+
+fl=(222)
+fn=(222)
+65 40
+cfl=(131)
+cfn=(131)
+calls=1 0
+0 16104
+cfl=(112)
+cfn=(112)
+calls=1 0
+0 708
+cfl=(223)
+cfn=(223)
+calls=1 0
+0 28
+
+fl=(135)
+fn=(135)
+845 254
+cfl=(158)
+cfn=(158)
+calls=8 0
+0 1687
+cfl=(140)
+cfn=(140)
+calls=8 0
+0 13779
+cfl=(139)
+cfn=(139)
+calls=8 0
+0 339
+cfl=(138)
+cfn=(138)
+calls=8 0
+0 53
+cfl=(136)
+cfn=(136)
+calls=8 0
+0 187
+
+fl=(187)
+fn=(187)
+356 1906
+
+fl=(163)
+fn=(163)
+64 2205
+cfl=(165)
+cfn=(165)
+calls=17 0
+0 6360
+cfl=(164)
+cfn=(164)
+calls=11 0
+0 233
+cfl=(151)
+cfn=(151)
+calls=70 0
+0 748
+cfl=(163)
+cfn=(163)
+calls=31 0
+0 13080
+cfl=(112)
+cfn=(112)
+calls=11 0
+0 446
+cfl=(139)
+cfn=(139)
+calls=110 0
+0 4291
+
+fl=(79)
+fn=(79)
+485 1604
+cfl=(45)
+cfn=(45)
+calls=69 0
+0 307
+
+fl=(64)
+fn=(64)
+263 3818
+cfl=(41)
+cfn=(41)
+calls=138 0
+0 5869
+cfl=(65)
+cfn=(65)
+calls=138 0
+0 2632
+
+fl=(140)
+fn=(140)
+407 708
+cfl=(149)
+cfn=(149)
+calls=3 0
+0 40
+cfl=(151)
+cfn=(151)
+calls=9 0
+0 126
+cfl=(150)
+cfn=(150)
+calls=6 0
+0 79
+cfl=(143)
+cfn=(143)
+calls=3 0
+0 16
+cfl=(145)
+cfn=(145)
+calls=25 0
+0 141
+cfl=(142)
+cfn=(142)
+calls=25 0
+0 13401
+cfl=(141)
+cfn=(141)
+calls=20 0
+0 208
+
+fl=(142)
+fn=(142)
+469 3428
+cfl=(225)
+cfn=(225)
+calls=1 0
+0 14
+cfl=(224)
+cfn=(224)
+calls=4 0
+0 270
+cfl=(172)
+cfn=(172)
+calls=16 0
+0 361
+cfl=(154)
+cfn=(154)
+calls=10 0
+0 806
+cfl=(153)
+cfn=(153)
+calls=6 0
+0 144
+cfl=(152)
+cfn=(152)
+calls=11 0
+0 39
+cfl=(151)
+cfn=(151)
+calls=33 0
+0 445
+cfl=(150)
+cfn=(150)
+calls=22 0
+0 225
+cfl=(149)
+cfn=(149)
+calls=37 0
+0 417
+cfl=(140)
+cfn=(140)
+calls=12 0
+0 9866
+cfl=(146)
+cfn=(146)
+calls=10 0
+0 417
+cfl=(145)
+cfn=(145)
+calls=93 0
+0 647
+cfl=(141)
+cfn=(141)
+calls=38 0
+0 412
+cfl=(144)
+cfn=(144)
+calls=332 0
+0 3934
+cfl=(143)
+cfn=(143)
+calls=25 0
+0 108
+
+fl=(309)
+fn=(309)
+70 5005
+cfl=(312)
+cfn=(312)
+calls=139 0
+0 4227
+cfl=(311)
+cfn=(311)
+calls=159 0
+0 897
+cfl=(310)
+cfn=(310)
+calls=174 0
+0 941
+
+fl=(101)
+fn=(101)
+2 44
+cfl=(131)
+cfn=(131)
+calls=1 0
+0 8542
+cfl=(112)
+cfn=(112)
+calls=2 0
+0 1268
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 14
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 2238
+
+fl=(61)
+fn=(61)
+389 1121
+cfl=(62)
+cfn=(62)
+calls=91 0
+0 8964
+
+fl=(675)
+fn=(675)
+71 42
+cfl=(685)
+cfn=(685)
+calls=1 0
+0 31
+cfl=(676)
+cfn=(676)
+calls=1 0
+0 69
+
+fl=(407)
+fn=(407)
+54 133
+cfl=(409)
+cfn=(409)
+calls=14 0
+0 4125
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 21
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 5182
+
+fl=(38)
+fn=(38)
+75 3506
+
+fl=(62)
+fn=(62)
+361 1279
+cfl=(64)
+cfn=(64)
+calls=69 0
+0 7134
+
+fl=(678)
+fn=(678)
+3 44
+cfl=(131)
+cfn=(131)
+calls=1 0
+0 1679
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 12
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 6470
+
+fl=(586)
+fn=(586)
+2264 171
+cfl=(587)
+cfn=(587)
+calls=28 0
+0 8232
+
+fl=(587)
+fn=(587)
+2158 2061
+cfl=(581)
+cfn=(581)
+calls=28 0
+0 117
+cfl=(580)
+cfn=(580)
+calls=112 0
+0 432
+cfl=(591)
+cfn=(591)
+calls=28 0
+0 963
+cfl=(590)
+cfn=(590)
+calls=84 0
+0 1604
+cfl=(588)
+cfn=(588)
+calls=28 0
+0 2107
+cfl=(571)
+cfn=(571)
+calls=28 0
+0 536
+cfl=(570)
+cfn=(570)
+calls=28 0
+0 122
+
+fl=(178)
+fn=(178)
+2 585
+cfl=(181)
+cfn=(181)
+calls=1 0
+0 359
+cfl=(131)
+cfn=(131)
+calls=3 0
+0 6052
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 31
+
+fl=(487)
+fn=(487)
+1 149
+cfl=(479)
+cfn=(479)
+calls=1 0
+0 5
+cfl=(480)
+cfn=(480)
+calls=1 0
+0 131
+cfl=(497)
+cfn=(497)
+calls=1 0
+0 58
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 1521
+cfl=(98)
+cfn=(98)
+calls=5 0
+0 5027
+cfl=(96)
+cfn=(96)
+calls=3 0
+0 208
+cfl=(59)
+cfn=(59)
+calls=4 0
+0 56
+
+fl=(165)
+fn=(165)
+223 488
+cfl=(139)
+cfn=(139)
+calls=9 0
+0 349
+cfl=(166)
+cfn=(166)
+calls=20 0
+0 6130
+
+fl=(14)
+fn=(14)
+146 1759
+cfl=(19)
+cfn=(19)
+calls=99 0
+0 1511
+cfl=(15)
+cfn=(15)
+calls=99 0
+0 3529
+
+fl=(568)
+fn=(568)
+1558 118
+cfl=(575)
+cfn=(575)
+calls=1 0
+0 139
+cfl=(569)
+cfn=(569)
+calls=19 0
+0 6904
+
+fl=(569)
+fn=(569)
+1459 1529
+cfl=(581)
+cfn=(581)
+calls=19 0
+0 87
+cfl=(580)
+cfn=(580)
+calls=76 0
+0 307
+cfl=(577)
+cfn=(577)
+calls=19 0
+0 625
+cfl=(575)
+cfn=(575)
+calls=57 0
+0 1070
+cfl=(572)
+cfn=(572)
+calls=19 0
+0 2560
+cfl=(571)
+cfn=(571)
+calls=19 0
+0 407
+cfl=(570)
+cfn=(570)
+calls=19 0
+0 78
+
+fl=(186)
+fn=(186)
+5 90
+cfl=(187)
+cfn=(187)
+calls=1 0
+0 1083
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 4020
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 44
+
+fl=(452)
+fn=(452)
+1 65
+cfl=(187)
+cfn=(187)
+calls=1 0
+0 1408
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 22
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 4929
+
+fl=(139)
+fn=(139)
+797 2266
+cfl=(113)
+cfn=(113)
+calls=308 0
+0 3424
+
+fl=(166)
+fn=(166)
+250 3194
+cfl=(228)
+cfn=(228)
+calls=6 0
+0 234
+cfl=(227)
+cfn=(227)
+calls=164 0
+0 1481
+cfl=(174)
+cfn=(174)
+calls=10 0
+0 443
+
+fl=(34)
+fn=(34)
+1080 1916
+cfl=(84)
+cfn=(84)
+calls=8 0
+0 1326
+
+fl=(45)
+fn=(45)
+208 5137
+
+fl=(96)
+fn=(96)
+178 1852
+cfl=(97)
+cfn=(97)
+calls=94 0
+0 1120
+cfl=(19)
+cfn=(19)
+calls=94 0
+0 1267
+cfl=(15)
+cfn=(15)
+calls=94 0
+0 395
+
+fl=(107)
+fn=(107)
+304 1367
+cfl=(45)
+cfn=(45)
+calls=96 0
+0 394
+
+fl=(46)
+fn=(46)
+94 980
+cfl=(47)
+cfn=(47)
+calls=121 0
+0 3673
+
+fl=(76)
+fn=(76)
+430 2320
+cfl=(77)
+cfn=(77)
+calls=138 0
+0 1717
+
+fl=(510)
+fn=(510)
+192 992
+cfl=(329)
+cfn=(329)
+calls=5 0
+0 430
+cfl=(328)
+cfn=(328)
+calls=5 0
+0 23
+cfl=(512)
+cfn=(512)
+calls=56 0
+0 1165
+cfl=(441)
+cfn=(441)
+calls=56 0
+0 890
+cfl=(511)
+cfn=(511)
+calls=56 0
+0 1010
+
+fl=(114)
+fn=(114)
+515 1560
+cfl=(115)
+cfn=(115)
+calls=5 0
+0 2856
+
+fl=(392)
+fn=(392)
+5 41
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 4032
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 32
+
+fl=(429)
+fn=(429)
+10 72
+cfl=(245)
+cfn=(245)
+calls=1 0
+0 40
+cfl=(59)
+cfn=(59)
+calls=1 0
+0 10
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 28
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 4124
+
+fl=(74)
+fn=(74)
+830 2861
+
+fl=(312)
+fn=(312)
+20 2179
+
+fl=(409)
+fn=(409)
+116 154
+cfl=(416)
+cfn=(416)
+calls=8 0
+0 3901
+
+fl=(48)
+fn=(48)
+1228 1305
+cfl=(102)
+cfn=(102)
+calls=22 0
+0 104
+cfl=(50)
+cfn=(50)
+calls=91 0
+0 2338
+cfl=(49)
+cfn=(49)
+calls=69 0
+0 330
+
+fl=(396)
+fn=(396)
+9 89
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 59
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 3421
+
+fl=(112)
+fn=(112)
+791 424
+cfl=(113)
+cfn=(113)
+calls=56 0
+0 3506
+
+fl=(318)
+fn=(318)
+351 2859
+
+fl=(505)
+fn=(505)
+1 83
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 3505
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 54
+cfl=(96)
+cfn=(96)
+calls=3 0
+0 171
+cfl=(59)
+cfn=(59)
+calls=3 0
+0 36
+
+fl=(144)
+fn=(144)
+253 2456
+cfl=(137)
+cfn=(137)
+calls=332 0
+0 1478
+
+fl=(15)
+fn=(15)
+159 1764
+cfl=(16)
+cfn=(16)
+calls=99 0
+0 2160
+
+fl=(416)
+fn=(416)
+73 74
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 3797
+
+fl=(47)
+fn=(47)
+85 1156
+cfl=(38)
+cfn=(38)
+calls=129 0
+0 2741
+
+fl=(347)
+fn=(347)
+86 2427
+
+fl=(372)
+fn=(372)
+30 178
+cfl=(12)
+cfn=(12)
+calls=2 0
+0 2689
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 63
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 14
+
+fl=(729)
+fn=(729)
+108 3637
+
+fl=(643)
+fn=(643)
+22 34
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 21
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 3349
+cfl=(59)
+cfn=(59)
+calls=2 0
+0 8
+
+fl=(24)
+fn=(24)
+834 2100
+
+fl=(28)
+fn=(28)
+838 2064
+
+fl=(453)
+fn=(453)
+5 441
+cfl=(458)
+cfn=(458)
+calls=6 0
+0 88
+cfl=(457)
+cfn=(457)
+calls=7 0
+0 104
+cfl=(456)
+cfn=(456)
+calls=12 0
+0 176
+cfl=(455)
+cfn=(455)
+calls=93 0
+0 292
+cfl=(454)
+cfn=(454)
+calls=1 0
+0 104
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 11
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 1820
+
+fl=(346)
+fn=(346)
+81 1718
+
+fl=(115)
+fn=(115)
+756 61
+cfl=(116)
+cfn=(116)
+calls=5 0
+0 2779
+
+fl=(348)
+fn=(348)
+91 1705
+
+fl=(345)
+fn=(345)
+76 1702
+
+fl=(116)
+fn=(116)
+763 126
+cfl=(118)
+cfn=(118)
+calls=5 0
+0 2611
+
+fl=(19)
+fn=(19)
+77 2140
+
+fl=(305)
+fn=(305)
+417 1512
+
+fl=(198)
+fn=(198)
+132 594
+cfl=(200)
+cfn=(200)
+calls=36 0
+0 338
+cfl=(199)
+cfn=(199)
+calls=12 0
+0 1168
+
+fl=(572)
+fn=(572)
+1099 336
+
+fl=(301)
+fn=(301)
+10 1503
+
+fl=(65)
+fn=(65)
+63 1609
+
+fl=(97)
+fn=(97)
+102 1984
+
+fl=(118)
+fn=(118)
+833 213
+cfl=(121)
+cfn=(121)
+calls=5 0
+0 56
+cfl=(120)
+cfn=(120)
+calls=5 0
+0 2137
+
+fl=(679)
+fn=(679)
+6 121
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 12
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 2399
+
+fl=(160)
+fn=(160)
+482 397
+cfl=(165)
+cfn=(165)
+calls=3 0
+0 868
+cfl=(162)
+cfn=(162)
+calls=6 0
+0 205
+cfl=(161)
+cfn=(161)
+calls=6 0
+0 121
+cfl=(139)
+cfn=(139)
+calls=3 0
+0 118
+cfl=(155)
+cfn=(155)
+calls=8 0
+0 486
+
+fl=(110)
+fn=(110)
+153 841
+cfl=(97)
+cfn=(97)
+calls=99 0
+0 1499
+
+fl=(50)
+fn=(50)
+524 1504
+cfl=(52)
+cfn=(52)
+calls=91 0
+0 474
+
+fl=(16)
+fn=(16)
+57 1331
+
+fl=(120)
+fn=(120)
+848 552
+cfl=(123)
+cfn=(123)
+calls=45 0
+0 643
+cfl=(121)
+cfn=(121)
+calls=90 0
+0 941
+
+fl=(430)
+fn=(430)
+42 65
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 1772
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 11
+
+fl=(588)
+fn=(588)
+1630 988
+cfl=(589)
+cfn=(589)
+calls=31 0
+0 632
+
+fl=(73)
+fn=(73)
+840 615
+cfl=(38)
+cfn=(38)
+calls=69 0
+0 1449
+
+fl=(59)
+fn=(59)
+402 1416
+
+fl=(307)
+fn=(307)
+114 372
+cfl=(309)
+cfn=(309)
+calls=15 0
+0 505
+cfl=(305)
+cfn=(305)
+calls=15 0
+0 902
+cfl=(308)
+cfn=(308)
+calls=15 0
+0 107
+
+fl=(532)
+fn=(532)
+1 230
+cfl=(510)
+cfn=(510)
+calls=4 0
+0 271
+cfl=(98)
+cfn=(98)
+calls=6 0
+0 84
+cfl=(96)
+cfn=(96)
+calls=4 0
+0 189
+cfl=(59)
+cfn=(59)
+calls=6 0
+0 59
+
+fl=(600)
+fn=(600)
+3 36
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 1844
+
+fl=(137)
+fn=(137)
+232 1882
+
+fl=(590)
+fn=(590)
+1882 1156
+cfl=(576)
+cfn=(576)
+calls=99 0
+0 372
+
+fl=(477)
+fn=(477)
+1 416
+cfl=(98)
+cfn=(98)
+calls=39 0
+0 558
+cfl=(448)
+cfn=(448)
+calls=1 0
+0 3
+cfl=(502)
+cfn=(502)
+calls=1 0
+0 4
+cfl=(485)
+cfn=(485)
+calls=1 0
+0 3
+
+fl=(573)
+fn=(573)
+1125 1021
+
+fl=(77)
+fn=(77)
+52 1107
+
+fl=(158)
+fn=(158)
+829 119
+cfl=(112)
+cfn=(112)
+calls=4 0
+0 1220
+cfl=(139)
+cfn=(139)
+calls=8 0
+0 314
+
+fl=(417)
+fn=(417)
+1 17
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 11
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 1653
+
+fl=(517)
+fn=(517)
+1 87
+cfl=(98)
+cfn=(98)
+calls=4 0
+0 59
+cfl=(96)
+cfn=(96)
+calls=3 0
+0 143
+cfl=(59)
+cfn=(59)
+calls=4 0
+0 41
+
+fl=(329)
+fn=(329)
+44 821
+
+fl=(90)
+fn=(90)
+1281 292
+cfl=(93)
+cfn=(93)
+calls=8 0
+0 681
+
+fl=(227)
+fn=(227)
+102 969
+
+fl=(151)
+fn=(151)
+163 968
+cfl=(143)
+cfn=(143)
+calls=11 0
+0 47
+
+fl=(575)
+fn=(575)
+1251 786
+cfl=(572)
+cfn=(572)
+calls=1 0
+0 114
+cfl=(576)
+cfn=(576)
+calls=67 0
+0 240
+
+fl=(84)
+fn=(84)
+1067 190
+cfl=(85)
+cfn=(85)
+calls=8 0
+0 1135
+
+fl=(109)
+fn=(109)
+307 1313
+
+fl=(314)
+fn=(314)
+462 448
+
+fl=(155)
+fn=(155)
+173 829
+cfl=(155)
+cfn=(155)
+calls=31 0
+0 632
+
+fl=(538)
+fn=(538)
+1 107
+cfl=(510)
+cfn=(510)
+calls=2 0
+0 228
+cfl=(98)
+cfn=(98)
+calls=6 0
+0 85
+cfl=(96)
+cfn=(96)
+calls=4 0
+0 189
+cfl=(59)
+cfn=(59)
+calls=6 0
+0 54
+
+fl=(26)
+fn=(26)
+698 629
+cfl=(213)
+cfn=(213)
+calls=5 0
+0 278
+
+fl=(311)
+fn=(311)
+28 1011
+
+fl=(199)
+fn=(199)
+135 544
+
+fl=(595)
+fn=(595)
+139 765
+
+fl=(512)
+fn=(512)
+211 833
+
+fl=(85)
+fn=(85)
+1322 130
+cfl=(87)
+cfn=(87)
+calls=8 0
+0 719
+cfl=(86)
+cfn=(86)
+calls=8 0
+0 287
+
+fl=(593)
+fn=(593)
+129 674
+
+fl=(592)
+fn=(592)
+124 686
+
+fl=(29)
+fn=(29)
+771 687
+
+fl=(483)
+fn=(483)
+2350 82
+cfl=(309)
+cfn=(309)
+calls=8 0
+0 950
+
+fl=(40)
+fn=(40)
+37 1024
+
+fl=(511)
+fn=(511)
+179 465
+cfl=(347)
+cfn=(347)
+calls=56 0
+0 545
+
+fl=(508)
+fn=(508)
+1 134
+cfl=(510)
+cfn=(510)
+calls=5 0
+0 368
+cfl=(98)
+cfn=(98)
+calls=6 0
+0 89
+cfl=(96)
+cfn=(96)
+calls=5 0
+0 233
+cfl=(59)
+cfn=(59)
+calls=6 0
+0 56
+
+fl=(121)
+fn=(121)
+135 676
+cfl=(129)
+cfn=(129)
+calls=5 0
+0 20
+cfl=(122)
+cfn=(122)
+calls=90 0
+0 303
+
+fl=(516)
+fn=(516)
+233 93
+cfl=(510)
+cfn=(510)
+calls=12 0
+0 902
+
+fl=(194)
+fn=(194)
+421 506
+
+fl=(591)
+fn=(591)
+1612 367
+cfl=(590)
+cfn=(590)
+calls=15 0
+0 272
+cfl=(579)
+cfn=(579)
+calls=15 0
+0 69
+cfl=(578)
+cfn=(578)
+calls=15 0
+0 197
+
+fl=(571)
+fn=(571)
+158 570
+
+fl=(310)
+fn=(310)
+36 882
+
+fl=(71)
+fn=(71)
+393 652
+cfl=(72)
+cfn=(72)
+calls=69 0
+0 266
+
+fl=(594)
+fn=(594)
+134 581
+
+fl=(441)
+fn=(441)
+422 401
+cfl=(347)
+cfn=(347)
+calls=56 0
+0 496
+
+fl=(596)
+fn=(596)
+144 565
+
+fl=(597)
+fn=(597)
+149 572
+
+fl=(154)
+fn=(154)
+96 89
+cfl=(155)
+cfn=(155)
+calls=10 0
+0 716
+
+fl=(488)
+fn=(488)
+1 118
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 27
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 80
+
+fl=(145)
+fn=(145)
+248 598
+cfl=(137)
+cfn=(137)
+calls=40 0
+0 192
+
+fl=(193)
+fn=(193)
+419 475
+
+fl=(580)
+fn=(580)
+550 739
+
+fl=(528)
+fn=(528)
+1 74
+cfl=(98)
+cfn=(98)
+calls=4 0
+0 62
+cfl=(96)
+cfn=(96)
+calls=3 0
+0 147
+cfl=(59)
+cfn=(59)
+calls=4 0
+0 37
+
+fl=(87)
+fn=(87)
+1196 192
+
+fl=(549)
+fn=(549)
+1 87
+cfl=(98)
+cfn=(98)
+calls=5 0
+0 75
+cfl=(96)
+cfn=(96)
+calls=3 0
+0 150
+cfl=(59)
+cfn=(59)
+calls=5 0
+0 49
+
+fl=(93)
+fn=(93)
+1310 386
+
+fl=(519)
+fn=(519)
+43 278
+cfl=(510)
+cfn=(510)
+calls=3 0
+0 395
+
+fl=(449)
+fn=(449)
+26 59
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 10
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 468
+
+fl=(123)
+fn=(123)
+865 310
+cfl=(124)
+cfn=(124)
+calls=35 0
+0 332
+
+fl=(105)
+fn=(105)
+927 276
+cfl=(45)
+cfn=(45)
+calls=22 0
+0 87
+cfl=(82)
+cfn=(82)
+calls=22 0
+0 272
+
+fl=(589)
+fn=(589)
+1734 399
+
+fl=(577)
+fn=(577)
+1075 250
+cfl=(575)
+cfn=(575)
+calls=10 0
+0 177
+cfl=(579)
+cfn=(579)
+calls=10 0
+0 41
+cfl=(578)
+cfn=(578)
+calls=10 0
+0 122
+
+fl=(141)
+fn=(141)
+285 432
+
+fl=(576)
+fn=(576)
+417 612
+
+fl=(537)
+fn=(537)
+336 36
+cfl=(510)
+cfn=(510)
+calls=7 0
+0 569
+
+fl=(371)
+fn=(371)
+480 47
+cfl=(329)
+cfn=(329)
+calls=5 0
+0 512
+
+fl=(615)
+fn=(615)
+1 84
+cfl=(98)
+cfn=(98)
+calls=5 0
+0 75
+cfl=(96)
+cfn=(96)
+calls=4 0
+0 188
+cfl=(59)
+cfn=(59)
+calls=5 0
+0 49
+
+fl=(303)
+fn=(303)
+628 530
+
+fl=(52)
+fn=(52)
+355 514
+
+fl=(608)
+fn=(608)
+370 42
+cfl=(309)
+cfn=(309)
+calls=5 0
+0 470
+
+fl=(150)
+fn=(150)
+159 355
+
+fl=(539)
+fn=(539)
+94 29
+cfl=(510)
+cfn=(510)
+calls=5 0
+0 437
+
+fl=(68)
+fn=(68)
+297 461
+
+fl=(149)
+fn=(149)
+171 316
+
+fl=(174)
+fn=(174)
+376 192
+cfl=(176)
+cfn=(176)
+calls=10 0
+0 175
+
+fl=(315)
+fn=(315)
+310 165
+cfl=(311)
+cfn=(311)
+calls=16 0
+0 278
+
+fl=(13)
+fn=(13)
+142 439
+
+fl=(660)
+fn=(660)
+572 35
+cfl=(663)
+cfn=(663)
+calls=1 0
+0 11
+cfl=(662)
+cfn=(662)
+calls=1 0
+0 375
+cfl=(661)
+cfn=(661)
+calls=1 0
+0 11
+
+fl=(67)
+fn=(67)
+293 421
+
+fl=(393)
+fn=(393)
+1 14
+
+fl=(146)
+fn=(146)
+84 179
+cfl=(147)
+cfn=(147)
+calls=20 0
+0 193
+
+fl=(56)
+fn=(56)
+35 403
+
+fl=(200)
+fn=(200)
+36 396
+
+fl=(540)
+fn=(540)
+1 40
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 17
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 49
+
+fl=(111)
+fn=(111)
+173 388
+
+fl=(662)
+fn=(662)
+592 8
+cfl=(178)
+cfn=(178)
+calls=1 0
+0 367
+
+fl=(455)
+fn=(455)
+39 372
+
+fl=(181)
+fn=(181)
+73 272
+cfl=(497)
+cfn=(497)
+calls=1 0
+0 41
+cfl=(200)
+cfn=(200)
+calls=1 0
+0 12
+cfl=(245)
+cfn=(245)
+calls=1 0
+0 44
+
+fl=(147)
+fn=(147)
+81 247
+
+fl=(172)
+fn=(172)
+294 179
+cfl=(173)
+cfn=(173)
+calls=4 0
+0 85
+
+fl=(60)
+fn=(60)
+410 357
+
+fl=(289)
+fn=(289)
+13 212
+
+fl=(326)
+fn=(326)
+17 350
+
+fl=(124)
+fn=(124)
+816 225
+
+fl=(49)
+fn=(49)
+800 330
+
+fl=(624)
+fn=(624)
+49 24
+cfl=(510)
+cfn=(510)
+calls=3 0
+0 303
+
+fl=(578)
+fn=(578)
+476 226
+
+fl=(327)
+fn=(327)
+22 316
+
+fl=(288)
+fn=(288)
+1 85
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 40
+
+fl=(122)
+fn=(122)
+592 303
+
+fl=(730)
+fn=(730)
+94 301
+
+fl=(644)
+fn=(644)
+1 29
+
+fl=(86)
+fn=(86)
+99 64
+cfl=(47)
+cfn=(47)
+calls=8 0
+0 223
+
+fl=(213)
+fn=(213)
+419 121
+cfl=(52)
+cfn=(52)
+calls=5 0
+0 24
+cfl=(214)
+cfn=(214)
+calls=5 0
+0 82
+
+fl=(224)
+fn=(224)
+266 139
+cfl=(137)
+cfn=(137)
+calls=29 0
+0 131
+
+fl=(72)
+fn=(72)
+825 266
+
+fl=(398)
+fn=(398)
+49 18
+cfl=(399)
+cfn=(399)
+calls=1 0
+0 247
+
+fl=(321)
+fn=(321)
+160 263
+
+fl=(55)
+fn=(55)
+669 254
+
+fl=(399)
+fn=(399)
+52 24
+
+fl=(494)
+fn=(494)
+550 49
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 21
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 59
+cfl=(59)
+cfn=(59)
+calls=1 0
+0 12
+
+fl=(216)
+fn=(216)
+719 47
+cfl=(82)
+cfn=(82)
+calls=5 0
+0 193
+
+fl=(565)
+fn=(565)
+1245 31
+cfl=(371)
+cfn=(371)
+calls=2 0
+0 187
+cfl=(370)
+cfn=(370)
+calls=2 0
+0 20
+
+fl=(271)
+fn=(271)
+1806 23
+cfl=(272)
+cfn=(272)
+calls=2 0
+0 215
+
+fl=(228)
+fn=(228)
+381 122
+
+fl=(164)
+fn=(164)
+388 113
+cfl=(151)
+cfn=(151)
+calls=9 0
+0 83
+cfl=(155)
+cfn=(155)
+calls=11 0
+0 37
+
+fl=(529)
+fn=(529)
+28 26
+cfl=(510)
+cfn=(510)
+calls=3 0
+0 198
+
+fl=(272)
+fn=(272)
+1154 54
+cfl=(258)
+cfn=(258)
+calls=2 0
+0 21
+cfl=(273)
+cfn=(273)
+calls=2 0
+0 52
+cfl=(267)
+cfn=(267)
+calls=2 0
+0 59
+cfl=(256)
+cfn=(256)
+calls=2 0
+0 22
+
+fl=(369)
+fn=(369)
+11 37
+cfl=(371)
+cfn=(371)
+calls=1 0
+0 160
+cfl=(370)
+cfn=(370)
+calls=1 0
+0 16
+
+fl=(89)
+fn=(89)
+1202 206
+
+fl=(162)
+fn=(162)
+441 85
+cfl=(151)
+cfn=(151)
+calls=4 0
+0 62
+cfl=(150)
+cfn=(150)
+calls=4 0
+0 56
+
+fl=(581)
+fn=(581)
+553 204
+
+fl=(570)
+fn=(570)
+607 200
+
+fl=(634)
+fn=(634)
+151 20
+
+fl=(322)
+fn=(322)
+179 198
+
+fl=(440)
+fn=(440)
+348 49
+cfl=(445)
+cfn=(445)
+calls=1 0
+0 6
+cfl=(98)
+cfn=(98)
+calls=1 0
+0 16
+cfl=(96)
+cfn=(96)
+calls=1 0
+0 49
+
+fl=(136)
+fn=(136)
+223 117
+cfl=(137)
+cfn=(137)
+calls=8 0
+0 42
+
+fl=(561)
+fn=(561)
+193 46
+cfl=(562)
+cfn=(562)
+calls=2 0
+0 104
+
+fl=(507)
+fn=(507)
+1 32
+cfl=(98)
+cfn=(98)
+calls=2 0
+0 31
+cfl=(96)
+cfn=(96)
+calls=2 0
+0 94
+cfl=(59)
+cfn=(59)
+calls=2 0
+0 21
+
+fl=(619)
+fn=(619)
+54 28
+cfl=(510)
+cfn=(510)
+calls=2 0
+0 149
+
+fl=(456)
+fn=(456)
+43 104
+cfl=(455)
+cfn=(455)
+calls=12 0
+0 37
+
+fl=(176)
+fn=(176)
+378 175
+
+fl=(525)
+fn=(525)
+1 27
+
+fl=(143)
+fn=(143)
+111 170
+
+fl=(550)
+fn=(550)
+12 18
+cfl=(510)
+cfn=(510)
+calls=2 0
+0 150
+
+fl=(133)
+fn=(133)
+539 112
+
+fl=(492)
+fn=(492)
+209 44
+cfl=(271)
+cfn=(271)
+calls=1 0
+0 117
+
+fl=(583)
+fn=(583)
+1876 32
+cfl=(371)
+cfn=(371)
+calls=1 0
+0 116
+cfl=(370)
+cfn=(370)
+calls=1 0
+0 12
+
+fl=(610)
+fn=(610)
+354 49
+cfl=(604)
+cfn=(604)
+calls=4 0
+0 41
+
+fl=(635)
+fn=(635)
+194 69
+cfl=(640)
+cfn=(640)
+calls=1 0
+0 14
+cfl=(639)
+cfn=(639)
+calls=2 0
+0 23
+cfl=(637)
+cfn=(637)
+calls=1 0
+0 18
+cfl=(200)
+cfn=(200)
+calls=2 0
+0 14
+cfl=(636)
+cfn=(636)
+calls=2 0
+0 10
+
+fl=(316)
+fn=(316)
+135 150
+
+fl=(480)
+fn=(480)
+5 44
+cfl=(484)
+cfn=(484)
+calls=1 0
+0 5
+
+fl=(330)
+fn=(330)
+367 20
+cfl=(333)
+cfn=(333)
+calls=1 0
+0 80
+cfl=(331)
+cfn=(331)
+calls=1 0
+0 37
+
+fl=(522)
+fn=(522)
+270 13
+cfl=(510)
+cfn=(510)
+calls=2 0
+0 131
+
+fl=(153)
+fn=(153)
+342 93
+
+fl=(504)
+fn=(504)
+87 139
+
+fl=(689)
+fn=(689)
+554 88
+cfl=(691)
+cfn=(691)
+calls=1 0
+0 11
+cfl=(690)
+cfn=(690)
+calls=1 0
+0 6
+cfl=(489)
+cfn=(489)
+calls=1 0
+0 24
+
+fl=(243)
+fn=(243)
+636 40
+cfl=(98)
+cfn=(98)
+calls=3 0
+0 40
+
+fl=(245)
+fn=(245)
+101 65
+cfl=(246)
+cfn=(246)
+calls=3 0
+0 52
+
+fl=(612)
+fn=(612)
+377 28
+
+fl=(342)
+fn=(342)
+40 18
+cfl=(344)
+cfn=(344)
+calls=1 0
+0 34
+
+fl=(161)
+fn=(161)
+414 96
+cfl=(161)
+cfn=(161)
+calls=3 0
+0 17
+
+fl=(567)
+fn=(567)
+1444 12
+cfl=(371)
+cfn=(371)
+calls=1 0
+0 96
+cfl=(370)
+cfn=(370)
+calls=1 0
+0 10
+
+fl=(357)
+fn=(357)
+264 113
+
+fl=(579)
+fn=(579)
+433 109
+
+fl=(251)
+fn=(251)
+1078 10
+cfl=(252)
+cfn=(252)
+calls=1 0
+0 99
+
+fl=(308)
+fn=(308)
+65 107
+
+fl=(457)
+fn=(457)
+47 62
+cfl=(455)
+cfn=(455)
+calls=7 0
+0 23
+
+fl=(102)
+fn=(102)
+908 104
+
+fl=(454)
+fn=(454)
+37 104
+
+fl=(562)
+fn=(562)
+196 54
+
+fl=(443)
+fn=(443)
+745 99
+
+fl=(497)
+fn=(497)
+657 28
+cfl=(498)
+cfn=(498)
+calls=2 0
+0 70
+
+fl=(252)
+fn=(252)
+764 29
+cfl=(260)
+cfn=(260)
+calls=1 0
+0 13
+cfl=(255)
+cfn=(255)
+calls=1 0
+0 42
+cfl=(254)
+cfn=(254)
+calls=1 0
+0 10
+cfl=(253)
+cfn=(253)
+calls=1 0
+0 4
+
+fl=(218)
+fn=(218)
+727 44
+cfl=(82)
+cfn=(82)
+calls=5 0
+0 51
+
+fl=(670)
+fn=(670)
+475 35
+cfl=(673)
+cfn=(673)
+calls=2 0
+0 13
+
+fl=(458)
+fn=(458)
+51 54
+cfl=(455)
+cfn=(455)
+calls=6 0
+0 18
+
+fl=(267)
+fn=(267)
+1261 42
+cfl=(254)
+cfn=(254)
+calls=3 0
+0 29
+cfl=(253)
+cfn=(253)
+calls=3 0
+0 13
+
+fl=(173)
+fn=(173)
+257 52
+cfl=(137)
+cfn=(137)
+calls=8 0
+0 34
+
+fl=(693)
+fn=(693)
+608 54
+
+fl=(247)
+fn=(247)
+755 84
+
+fl=(523)
+fn=(523)
+387 16
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 67
+
+fl=(536)
+fn=(536)
+265 14
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 67
+
+fl=(214)
+fn=(214)
+218 58
+cfl=(215)
+cfn=(215)
+calls=5 0
+0 24
+
+fl=(333)
+fn=(333)
+329 42
+
+fl=(521)
+fn=(521)
+204 13
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 65
+
+fl=(515)
+fn=(515)
+186 11
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 67
+
+fl=(534)
+fn=(534)
+148 9
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 69
+
+fl=(520)
+fn=(520)
+89 9
+cfl=(510)
+cfn=(510)
+calls=1 0
+0 68
+
+fl=(334)
+fn=(334)
+62 62
+
+fl=(324)
+fn=(324)
+335 74
+
+fl=(498)
+fn=(498)
+664 28
+cfl=(499)
+cfn=(499)
+calls=2 0
+0 42
+
+fl=(676)
+fn=(676)
+43 39
+
+fl=(604)
+fn=(604)
+5 47
+
+fl=(370)
+fn=(370)
+449 37
+
+fl=(328)
+fn=(328)
+74 54
+
+fl=(138)
+fn=(138)
+76 53
+
+fl=(273)
+fn=(273)
+1205 35
+cfl=(275)
+cfn=(275)
+calls=1 0
+0 4
+
+fl=(246)
+fn=(246)
+261 36
+
+fl=(609)
+fn=(609)
+43 21
+cfl=(318)
+cfn=(318)
+calls=2 0
+0 28
+
+fl=(128)
+fn=(128)
+859 48
+
+fl=(687)
+fn=(687)
+147 22
+
+fl=(486)
+fn=(486)
+2649 44
+
+fl=(499)
+fn=(499)
+740 26
+
+fl=(255)
+fn=(255)
+745 14
+cfl=(258)
+cfn=(258)
+calls=1 0
+0 11
+cfl=(256)
+cfn=(256)
+calls=1 0
+0 13
+
+fl=(618)
+fn=(618)
+406 27
+cfl=(615)
+cfn=(615)
+calls=1 0
+0 4
+
+fl=(254)
+fn=(254)
+185 28
+
+fl=(338)
+fn=(338)
+293 17
+
+fl=(152)
+fn=(152)
+167 39
+
+fl=(674)
+fn=(674)
+626 37
+
+fl=(331)
+fn=(331)
+62 18
+cfl=(332)
+cfn=(332)
+calls=1 0
+0 12
+
+fl=(266)
+fn=(266)
+1575 11
+cfl=(267)
+cfn=(267)
+calls=1 0
+0 26
+
+fl=(614)
+fn=(614)
+712 28
+
+fl=(484)
+fn=(484)
+2368 36
+
+fl=(256)
+fn=(256)
+214 23
+
+fl=(344)
+fn=(344)
+44 34
+
+fl=(201)
+fn=(201)
+79 21
+cfl=(202)
+cfn=(202)
+calls=4 0
+0 13
+
+fl=(354)
+fn=(354)
+30 27
+
+fl=(613)
+fn=(613)
+561 26
+
+fl=(258)
+fn=(258)
+223 21
+
+fl=(183)
+fn=(183)
+283 31
+
+fl=(685)
+fn=(685)
+300 14
+cfl=(686)
+cfn=(686)
+calls=1 0
+0 16
+
+fl=(391)
+fn=(391)
+1378 29
+
+fl=(223)
+fn=(223)
+249 20
+
+fl=(390)
+fn=(390)
+720 27
+
+fl=(397)
+fn=(397)
+38 26
+
+fl=(582)
+fn=(582)
+1592 26
+
+fl=(405)
+fn=(405)
+5 26
+
+fl=(215)
+fn=(215)
+744 24
+
+fl=(350)
+fn=(350)
+133 18
+
+fl=(460)
+fn=(460)
+5 22
+
+fl=(482)
+fn=(482)
+2346 22
+
+fl=(485)
+fn=(485)
+2519 22
+
+fl=(509)
+fn=(509)
+23 14
+cfl=(200)
+cfn=(200)
+calls=1 0
+0 6
+
+fl=(129)
+fn=(129)
+597 20
+
+fl=(563)
+fn=(563)
+598 20
+
+fl=(434)
+fn=(434)
+540 18
+
+fl=(233)
+fn=(233)
+50 12
+
+fl=(427)
+fn=(427)
+629 18
+
+fl=(431)
+fn=(431)
+60 14
+
+fl=(564)
+fn=(564)
+1049 18
+
+fl=(242)
+fn=(242)
+594 18
+
+fl=(472)
+fn=(472)
+5 18
+
+fl=(421)
+fn=(421)
+71 18
+
+fl=(637)
+fn=(637)
+349 10
+cfl=(638)
+cfn=(638)
+calls=1 0
+0 8
+
+fl=(1)
+fn=(1)
+23 11
+
+fl=(253)
+fn=(253)
+678 17
+
+fl=(365)
+fn=(365)
+202 10
+
+fl=(636)
+fn=(636)
+70 16
+
+fl=(686)
+fn=(686)
+93 12
+
+fl=(240)
+fn=(240)
+465 12
+cfl=(241)
+cfn=(241)
+calls=1 0
+0 4
+
+fl=(196)
+fn=(196)
+5 16
+
+fl=(6)
+fn=(6)
+318 10
+
+fl=(478)
+fn=(478)
+5 16
+
+fl=(3)
+fn=(3)
+308 10
+cfl=(4)
+cfn=(4)
+calls=1 0
+0 6
+
+fl=(476)
+fn=(476)
+5 16
+
+fl=(474)
+fn=(474)
+5 14
+
+fl=(445)
+fn=(445)
+325 14
+
+fl=(439)
+fn=(439)
+114 14
+
+fl=(464)
+fn=(464)
+5 14
+
+fl=(282)
+fn=(282)
+108 14
+
+fl=(470)
+fn=(470)
+5 14
+
+fl=(667)
+fn=(667)
+178 8
+cfl=(636)
+cfn=(636)
+calls=1 0
+0 6
+
+fl=(640)
+fn=(640)
+148 9
+cfl=(638)
+cfn=(638)
+calls=1 0
+0 5
+
+fl=(606)
+fn=(606)
+5 14
+
+fl=(225)
+fn=(225)
+287 10
+cfl=(137)
+cfn=(137)
+calls=1 0
+0 4
+
+fl=(468)
+fn=(468)
+5 13
+
+fl=(202)
+fn=(202)
+9 13
+
+fl=(496)
+fn=(496)
+612 13
+
+fl=(638)
+fn=(638)
+72 13
+
+fl=(432)
+fn=(432)
+97 9
+
+fl=(584)
+fn=(584)
+2056 13
+
+fl=(506)
+fn=(506)
+110 13
+
+fl=(337)
+fn=(337)
+291 13
+
+fl=(260)
+fn=(260)
+793 8
+cfl=(234)
+cfn=(234)
+calls=1 0
+0 5
+
+fl=(221)
+fn=(221)
+77 12
+
+fl=(239)
+fn=(239)
+421 12
+
+fl=(332)
+fn=(332)
+39 6
+
+fl=(351)
+fn=(351)
+543 12
+
+fl=(493)
+fn=(493)
+516 12
+
+fl=(566)
+fn=(566)
+1362 12
+
+fl=(263)
+fn=(263)
+1246 12
+
+fl=(663)
+fn=(663)
+586 8
+
+fl=(424)
+fn=(424)
+136 11
+
+fl=(691)
+fn=(691)
+540 11
+
+fl=(655)
+fn=(655)
+569 11
+
+fl=(656)
+fn=(656)
+650 7
+
+fl=(490)
+fn=(490)
+141 11
+
+fl=(559)
+fn=(559)
+385 11
+
+fl=(234)
+fn=(234)
+74 11
+
+fl=(661)
+fn=(661)
+1226 8
+
+fl=(265)
+fn=(265)
+1583 10
+
+fl=(291)
+fn=(291)
+21 10
+
+fl=(446)
+fn=(446)
+367 10
+
+fl=(182)
+fn=(182)
+104 10
+
+fl=(279)
+fn=(279)
+56 10
+
+fl=(560)
+fn=(560)
+539 10
+
+fl=(632)
+fn=(632)
+1023 10
+
+fl=(628)
+fn=(628)
+703 10
+
+fl=(623)
+fn=(623)
+1046 10
+
+fl=(535)
+fn=(535)
+214 10
+
+fl=(450)
+fn=(450)
+229 10
+
+fl=(626)
+fn=(626)
+455 10
+
+fl=(633)
+fn=(633)
+1 9
+
+fl=(388)
+fn=(388)
+605 9
+
+fl=(426)
+fn=(426)
+459 9
+
+fl=(620)
+fn=(620)
+541 9
+
+fl=(616)
+fn=(616)
+48 9
+
+fl=(387)
+fn=(387)
+575 9
+
+fl=(385)
+fn=(385)
+307 9
+
+fl=(659)
+fn=(659)
+643 9
+
+fl=(530)
+fn=(530)
+221 9
+
+fl=(551)
+fn=(551)
+262 8
+
+fl=(386)
+fn=(386)
+331 8
+
+fl=(585)
+fn=(585)
+2142 8
+
+fl=(285)
+fn=(285)
+282 8
+
+fl=(244)
+fn=(244)
+673 8
+
+fl=(654)
+fn=(654)
+37 8
+
+fl=(541)
+fn=(541)
+10 8
+
+fl=(625)
+fn=(625)
+324 8
+
+fl=(292)
+fn=(292)
+214 7
+
+fl=(400)
+fn=(400)
+55 7
+
+fl=(631)
+fn=(631)
+913 7
+
+fl=(395)
+fn=(395)
+33 7
+
+fl=(403)
+fn=(403)
+65 7
+
+fl=(466)
+fn=(466)
+850 7
+
+fl=(231)
+fn=(231)
+169 7
+
+fl=(428)
+fn=(428)
+777 7
+
+fl=(621)
+fn=(621)
+678 7
+
+fl=(622)
+fn=(622)
+814 7
+
+fl=(353)
+fn=(353)
+244 7
+
+fl=(293)
+fn=(293)
+233 7
+
+fl=(617)
+fn=(617)
+294 7
+
+fl=(235)
+fn=(235)
+234 6
+
+fl=(358)
+fn=(358)
+272 6
+
+fl=(268)
+fn=(268)
+1143 6
+
+fl=(435)
+fn=(435)
+147 6
+
+fl=(690)
+fn=(690)
+602 6
+
+fl=(607)
+fn=(607)
+349 6
+
+fl=(177)
+fn=(177)
+253 6
+
+fl=(462)
+fn=(462)
+416 6
+
+fl=(401)
+fn=(401)
+59 6
+
+fl=(543)
+fn=(543)
+65 6
+
+fl=(630)
+fn=(630)
+834 6
+
+fl=(491)
+fn=(491)
+197 6
+
+fl=(4)
+fn=(4)
+259 6
+
+fl=(547)
+fn=(547)
+230 6
+
+fl=(599)
+fn=(599)
+154 6
+
+fl=(286)
+fn=(286)
+509 6
+
+fl=(402)
+fn=(402)
+62 6
+
+fl=(425)
+fn=(425)
+416 6
+
+fl=(652)
+fn=(652)
+8 5
+
+fl=(248)
+fn=(248)
+944 5
+
+fl=(642)
+fn=(642)
+1092 5
+
+fl=(375)
+fn=(375)
+273 5
+
+fl=(378)
+fn=(378)
+282 5
+
+fl=(442)
+fn=(442)
+564 5
+
+fl=(281)
+fn=(281)
+93 5
+
+fl=(384)
+fn=(384)
+300 5
+
+fl=(250)
+fn=(250)
+1072 5
+
+fl=(356)
+fn=(356)
+225 5
+
+fl=(355)
+fn=(355)
+219 5
+
+fl=(495)
+fn=(495)
+565 5
+
+fl=(451)
+fn=(451)
+266 5
+
+fl=(545)
+fn=(545)
+155 5
+
+fl=(447)
+fn=(447)
+83 5
+
+fl=(220)
+fn=(220)
+55 5
+
+fl=(197)
+fn=(197)
+59 5
+
+fl=(518)
+fn=(518)
+13 5
+
+fl=(364)
+fn=(364)
+228 5
+
+fl=(629)
+fn=(629)
+773 5
+
+fl=(204)
+fn=(204)
+290 5
+
+fl=(280)
+fn=(280)
+71 5
+
+fl=(203)
+fn=(203)
+205 5
+
+fl=(270)
+fn=(270)
+1934 5
+
+fl=(465)
+fn=(465)
+848 5
+
+fl=(238)
+fn=(238)
+397 5
+
+fl=(236)
+fn=(236)
+373 5
+
+fl=(205)
+fn=(205)
+343 5
+
+fl=(380)
+fn=(380)
+288 5
+
+fl=(206)
+fn=(206)
+525 5
+
+fl=(514)
+fn=(514)
+532 5
+
+fl=(376)
+fn=(376)
+276 5
+
+fl=(527)
+fn=(527)
+116 5
+
+fl=(241)
+fn=(241)
+379 4
+
+fl=(502)
+fn=(502)
+62 4
+
+fl=(389)
+fn=(389)
+709 4
+
+fl=(261)
+fn=(261)
+1096 4
+
+fl=(602)
+fn=(602)
+215 4
+
+fl=(524)
+fn=(524)
+464 4
+
+fl=(171)
+fn=(171)
+20 4
+
+fl=(394)
+fn=(394)
+9 4
+
+fl=(349)
+fn=(349)
+130 4
+
+fl=(237)
+fn=(237)
+388 4
+
+fl=(481)
+fn=(481)
+2342 4
+
+fl=(436)
+fn=(436)
+322 4
+
+fl=(526)
+fn=(526)
+62 4
+
+fl=(360)
+fn=(360)
+286 4
+
+fl=(275)
+fn=(275)
+1102 4
+
+fl=(359)
+fn=(359)
+279 4
+
+fl=(276)
+fn=(276)
+44 4
+
+fl=(262)
+fn=(262)
+1138 4
+
+fl=(363)
+fn=(363)
+301 4
+
+fl=(383)
+fn=(383)
+297 4
+
+fl=(461)
+fn=(461)
+178 4
+
+fl=(433)
+fn=(433)
+339 4
+
+fl=(283)
+fn=(283)
+138 4
+
+fl=(552)
+fn=(552)
+289 4
+
+fl=(627)
+fn=(627)
+678 4
+
+fl=(544)
+fn=(544)
+133 4
+
+fl=(653)
+fn=(653)
+18 4
+
+fl=(381)
+fn=(381)
+291 4
+
+fl=(444)
+fn=(444)
+767 4
+
+fl=(558)
+fn=(558)
+23 4
+
+fl=(542)
+fn=(542)
+45 4
+
+fl=(681)
+fn=(681)
+218 4
+
+fl=(437)
+fn=(437)
+339 4
+
+fl=(533)
+fn=(533)
+39 4
+
+fl=(680)
+fn=(680)
+146 4
+
+fl=(362)
+fn=(362)
+297 4
+
+fl=(650)
+fn=(650)
+29 4
+
+fl=(277)
+fn=(277)
+48 4
+
+fl=(422)
+fn=(422)
+663 4
+
+fl=(531)
+fn=(531)
+237 4
+
+fl=(377)
+fn=(377)
+279 4
+
+fl=(379)
+fn=(379)
+285 4
+
+fl=(249)
+fn=(249)
+1003 4
+
+fl=(546)
+fn=(546)
+178 4
+
+fl=(641)
+fn=(641)
+1300 4
+
+fl=(382)
+fn=(382)
+294 4
+
+fl=(646)
+fn=(646)
+13 4
+
+fl=(336)
+fn=(336)
+277 4
+
+fl=(647)
+fn=(647)
+17 3
+
+fl=(361)
+fn=(361)
+293 3
+
+fl=(557)
+fn=(557)
+19 3
+
+fl=(648)
+fn=(648)
+21 3
+
+fl=(645)
+fn=(645)
+9 3
+
+fl=(649)
+fn=(649)
+25 3
+
+fl=(553)
+fn=(553)
+1 3
+
+fl=(264)
+fn=(264)
+1569 3
+
+fl=(684)
+fn=(684)
+295 3
+
+fl=(374)
+fn=(374)
+270 3
+
+fl=(682)
+fn=(682)
+253 3
+
+fl=(683)
+fn=(683)
+292 3
+
+fl=(352)
+fn=(352)
+204 3
+
+fl=(278)
+fn=(278)
+52 3
