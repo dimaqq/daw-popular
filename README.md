@@ -55,6 +55,7 @@ run `tox` (Python3.6 must be available)
 * acceptance tests (uses real data server)
 * http2?
 * pure-python: anti-dogpile when making upstream requests
+* use shield
 
 ### Tools
 * https://circleci.com/gh/dimaqq/daw-popular
