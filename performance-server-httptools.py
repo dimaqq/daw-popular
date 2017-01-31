@@ -1,6 +1,6 @@
 import json
 import uvloop
-import logging
+# import logging
 import asyncio
 import httptools
 
@@ -87,8 +87,9 @@ class HttpProtocol(asyncio.Protocol):
     ####
 
     async def handle(self, request, response):
-        parsed_url = httptools.parse_url(self._current_url)
-        logging.info("%s foo bar baz", parsed_url)
+        # parsed_url = httptools.parse_url(self._current_url)
+        # logging.info("%s foo bar baz", parsed_url)
+        await asyncio.sleep(0.01)
         response.write(json.dumps(dict(foo="bar")).encode("utf-8"))
         if not self._current_parser.should_keep_alive():
             self._transport.close()
@@ -100,7 +101,7 @@ def httptools_server(loop, addr):
     return loop.create_server(lambda: HttpProtocol(loop=loop), *addr)
 
 
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 asyncio.ensure_future(asyncio.get_event_loop().create_server(HttpProtocol, "localhost", 8080))
 loop = asyncio.get_event_loop().run_forever()
