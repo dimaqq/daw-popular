@@ -15,6 +15,11 @@ run `tox` (Python3.6 must be available)
 * performance (https://github.com/dimaqq/daw-popular/tree/performance) investigation into making asyncio fast
 * pure-python (TBD) caching in Python, that is without HTTP cache
 
+### Performance
+* latency: target <1ms, details TBD
+* concurrency: target 1000s, details TBD
+* minimum work-load: accept request, process, make async outbound request, collect response, process, return own response
+
 ### Design considerations
 * made for the web (scale, server-side cache, client-side cache)
 * docker (testable, scalable, deployment)
