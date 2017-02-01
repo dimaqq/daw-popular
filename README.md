@@ -20,6 +20,13 @@ run `tox` (Python3.6 must be available)
 * concurrency: target 1000s, details TBD
 * minimum work-load: accept request, process, make async outbound request, collect response, process, return own response
 
+### Libraries
+|                 |           |
+| --------------- | --------- |
+| event loop      |    uvloop |
+| HTTP processing | httptools |
+| HTTP client     |       ??? |
+
 ### Design considerations
 * made for the web (scale, server-side cache, client-side cache)
 * docker (testable, scalable, deployment)
