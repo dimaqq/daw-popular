@@ -12,7 +12,8 @@ run `tox` (Python3.6 must be available)
 
 ### Branches
 * master (https://github.com/dimaqq/daw-popular/tree/master) demo code
-* performance (https://github.com/dimaqq/daw-popular/tree/performance) investigation into making asyncio fast
+* performance (https://github.com/dimaqq/daw-popular/tree/performance) fast asyncio (uvloop, httptools)
+* curio-h11 (https://github.com/dimaqq/daw-popular/tree/curio-h11) compromise between performance and API
 * pure-python (TBD) caching in Python, that is without HTTP cache
 
 ### Design considerations
