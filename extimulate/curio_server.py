@@ -29,7 +29,7 @@ class CurioHTTPWrapper:
 
     async def _read_from_peer(self):
         if self.conn.they_are_waiting_for_100_continue:
-            self.info("Sending 100 Continue")
+            logging.debug("Sending 100 Continue")
             go_ahead = h11.InformationalResponse(
                 status_code=100,
                 headers=self.basic_headers())
@@ -39,7 +39,6 @@ class CurioHTTPWrapper:
         except ConnectionError:
             # They've stopped listening. Not much we can do about it here.
             data = b""
-        logging.info("data recv: %s", data)
         self.conn.receive_data(data)
 
     async def next_event(self):
@@ -93,9 +92,6 @@ class CurioHTTPWrapper:
             ("Server", "Curio/h11")
         ]
 
-    def info(self, *args):
-        logging.info("%s: %s", self, args)
-
     async def run(self):
         while True:
             assert self.conn.states == {
@@ -103,27 +99,27 @@ class CurioHTTPWrapper:
 
             try:
                 async with curio.timeout_after(TIMEOUT):
-                    # self.info("Server main loop waiting for request")
+                    # logging.debug("Server main loop waiting for request")
                     event = await self.next_event()
-                    # self.info(event)
+                    # logging.debug("%s", event)
                     if type(event) is h11.Request:
-                        self.info(event.target)
+                        logging.info("%s", event.target)  # log requedted URI
                         await send_echo_response(self, event)
             except Exception as exc:
-                self.info("Error during response handler:", exc)
+                logging.debug("Error during response handler", exc_info=True)
                 await maybe_send_error_response(self, exc)
 
             if self.conn.our_state is h11.MUST_CLOSE:
-                self.info("connection is not reusable, so shutting down")
+                logging.debug("connection is not reusable, so shutting down")
                 await self.shutdown_and_clean_up()
                 return
             else:
                 try:
-                    # self.info("trying to re-use connection")
+                    # logging.debug("trying to re-use connection")
                     self.conn.start_next_cycle()
                 except h11.ProtocolError:
                     states = self.conn.states
-                    self.info("unexpected state", states, "-- bailing out")
+                    logging.debug("unexpected state %s -- bailing out", states)
                     await maybe_send_error_response(
                         self,
                         RuntimeError("unexpected state {}".format(states)))
@@ -132,14 +128,12 @@ class CurioHTTPWrapper:
 
 
 async def http_serve(sock, _addr):
-    wrapper = CurioHTTPWrapper(sock)
-    await wrapper.run()
+    await CurioHTTPWrapper(sock).run()
 
 
 # Helper function
 async def send_simple_response(wrapper, status_code, content_type, body):
-    wrapper.info("Sending", status_code,
-                 "response with", len(body), "bytes")
+    logging.info("Sending %s response with %s bytes", status_code, len(body))
     headers = wrapper.basic_headers()
     headers.append(("Content-Type", content_type))
     headers.append(("Content-Length", str(len(body))))
@@ -151,10 +145,9 @@ async def send_simple_response(wrapper, status_code, content_type, body):
 
 async def maybe_send_error_response(wrapper, exc):
     # If we can't send an error, oh well, nothing to be done
-    wrapper.info("trying to send error response...")
+    logging.debug("trying to send error response...")
     if wrapper.conn.our_state not in {h11.IDLE, h11.SEND_RESPONSE}:
-        wrapper.info("...but I can't, because our state is",
-                     wrapper.conn.our_state)
+        logging.debug("...but I can't, because our state is %s", wrapper.conn.our_state)
         return
     try:
         if isinstance(exc, h11.RemoteProtocolError):
@@ -167,11 +160,11 @@ async def maybe_send_error_response(wrapper, exc):
                                    "text/plain; charset=utf-8",
                                    body)
     except Exception as exc:
-        wrapper.info("error while sending error response:", exc)
+        logging.info("error while sending error response", exc_info=True)
 
 
 async def send_echo_response(wrapper, request):
-    # wrapper.info("Preparing echo response")
+    # logging.info("Preparing echo response")
     if request.method not in {b"GET", b"POST"}:
         # Laziness: we should send a proper 405 Method Not Allowed with the
         # appropriate Accept: header, but we don't.
@@ -183,7 +176,6 @@ async def send_echo_response(wrapper, request):
             break
         assert type(event) is h11.Data
         body += event.data.decode("ascii")
-    logging.info("req h: %s", request.headers)
     response_body_unicode = str([request.method, request.target, request.headers, body])
     response_body_bytes = response_body_unicode.encode("utf-8")
     await send_simple_response(wrapper,
