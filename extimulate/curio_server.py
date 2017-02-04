@@ -39,6 +39,7 @@ class CurioHTTPWrapper:
         except ConnectionError:
             # They've stopped listening. Not much we can do about it here.
             data = b""
+        logging.info("data recv: %s", data)
         self.conn.receive_data(data)
 
     async def next_event(self):
@@ -95,41 +96,44 @@ class CurioHTTPWrapper:
     def info(self, *args):
         logging.info("%s: %s", self, args)
 
+    async def run(self):
+        while True:
+            assert self.conn.states == {
+                h11.CLIENT: h11.IDLE, h11.SERVER: h11.IDLE}
 
-async def http_serve(sock, addr):
-    wrapper = CurioHTTPWrapper(sock)
-    while True:
-        assert wrapper.conn.states == {
-            h11.CLIENT: h11.IDLE, h11.SERVER: h11.IDLE}
-
-        try:
-            async with curio.timeout_after(TIMEOUT):
-                # wrapper.info("Server main loop waiting for request")
-                event = await wrapper.next_event()
-                # wrapper.info(event)
-                if type(event) is h11.Request:
-                    wrapper.info(event.target)
-                    await send_echo_response(wrapper, event)
-        except Exception as exc:
-            wrapper.info("Error during response handler:", exc)
-            await maybe_send_error_response(wrapper, exc)
-
-        if wrapper.conn.our_state is h11.MUST_CLOSE:
-            wrapper.info("connection is not reusable, so shutting down")
-            await wrapper.shutdown_and_clean_up()
-            return
-        else:
             try:
-                # wrapper.info("trying to re-use connection")
-                wrapper.conn.start_next_cycle()
-            except h11.ProtocolError:
-                states = wrapper.conn.states
-                wrapper.info("unexpected state", states, "-- bailing out")
-                await maybe_send_error_response(
-                    wrapper,
-                    RuntimeError("unexpected state {}".format(states)))
-                await wrapper.shutdown_and_clean_up()
+                async with curio.timeout_after(TIMEOUT):
+                    # self.info("Server main loop waiting for request")
+                    event = await self.next_event()
+                    # self.info(event)
+                    if type(event) is h11.Request:
+                        self.info(event.target)
+                        await send_echo_response(self, event)
+            except Exception as exc:
+                self.info("Error during response handler:", exc)
+                await maybe_send_error_response(self, exc)
+
+            if self.conn.our_state is h11.MUST_CLOSE:
+                self.info("connection is not reusable, so shutting down")
+                await self.shutdown_and_clean_up()
                 return
+            else:
+                try:
+                    # self.info("trying to re-use connection")
+                    self.conn.start_next_cycle()
+                except h11.ProtocolError:
+                    states = self.conn.states
+                    self.info("unexpected state", states, "-- bailing out")
+                    await maybe_send_error_response(
+                        self,
+                        RuntimeError("unexpected state {}".format(states)))
+                    await self.shutdown_and_clean_up()
+                    return
+
+
+async def http_serve(sock, _addr):
+    wrapper = CurioHTTPWrapper(sock)
+    await wrapper.run()
 
 
 # Helper function
@@ -179,6 +183,7 @@ async def send_echo_response(wrapper, request):
             break
         assert type(event) is h11.Data
         body += event.data.decode("ascii")
+    logging.info("req h: %s", request.headers)
     response_body_unicode = str([request.method, request.target, request.headers, body])
     response_body_bytes = response_body_unicode.encode("utf-8")
     await send_simple_response(wrapper,
@@ -189,6 +194,6 @@ async def send_echo_response(wrapper, request):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    kernel = curio.Kernel()
+    # kernel = curio.Kernel()
     print("Listening on http://localhost:8080")
-    kernel.run(curio.tcp_server("localhost", 8080, http_serve))
+    curio.run(curio.tcp_server("localhost", 8080, http_serve))
